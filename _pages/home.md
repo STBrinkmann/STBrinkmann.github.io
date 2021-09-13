@@ -65,8 +65,8 @@ We are located at Leiden University, the birthplace of superconductivity and hom
 We are grateful for funding from [Friedrich-Alexander-University}(https://www.geography.nat.fau.eu/).
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_1.png" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_2.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_3.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_4.png" style="width: 110px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_1.PNG" style="width: 210px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_2.PNG" style="width: 110px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_3.PNG" style="width: 110px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_4.PNG" style="width: 110px">
 </figure>
