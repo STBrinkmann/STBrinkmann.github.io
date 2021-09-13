@@ -1,46 +1,37 @@
 ---
-title: "Allan Lab - Research"
+title: "CHEST-Lab - Research"
 layout: textlay
-excerpt: "Allan Lab -- Research"
+excerpt: "CHEST-Lab -- Research"
 sitemap: false
 permalink: /research/
 ---
 
 # Research
 
-Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
-
-Our goal is to build instruments and develop techniques that enable us to address the questions we find most interesting. This is possible thanks also to Milan's broad background with different research themes and technologies: he learned his trade in [Seamus Davis’ SI-STM lab](http://davisgroup.lassp.cornell.edu/) and with [Felix Baumberger](http://dpmc.unige.ch/gr_baumberger/index.html), and later moved as an [ETH fellow](http://www.ethfellows.ethz.ch/) to [Andreas Wallraff’s qudev lab](http://www.qudev.ethz.ch/) where he investigated coupled cavity arrays in circuit QED. We further have group members with different background and interests, working together on physics and instrumentation.
+The rapid nascence of data availability, powerful algorithms, and quantitative methodology are necessitating novel conceptualisations of „digital“, serving both as an applied means of constructing information and as an arena for critical inquiry into emergent modes of representation. With a broad focus on the interplays between human health and social/built/natural environments, the Digital Health Geographies Research Group explores the confluence of applied machine learning and the analysis of situated, community-scale sociocultural practice through empirical study.
 
 Here are some themes and techniques that we currently work on:
 
-**Scanning tunneling noise spectroscopy (STNS).** We have developed a novel cryogenic MHz amplifier that allows us to measure not only the average tunneling current, but also its fluctuation! This has many applications: one can detect the fluctuations of the electronic states, peculiar tunneling processes, and shot noise. We have used this instrument to discover charge trapping in the insulating layer of the cuprates, connected to the c-axis mystery, and to measure the doubling of the charge due to Andreev processes to the superfluid in a lead sample.
+**COVID-19** ***Can artificial intelligence algorithms identify community-scale socioeconomic and built-environment risk factors?***
+The project examines geographical associations between COVID-19, socioeconomic status, and the built/natural environment. Using contemporary spatial epidemiological techniques and Bayesian machine learning we are presently testing novel methodological combinations to triangulate factors underlying the spatial and temporal structures of the epidemic in Germany.
+In recent years artificial intelligence and machine learning algorithms have raised attention and critique. These so-called “black-box” models yield impressive predictive performance when analysing high-dimensional, complex datasets, but at the cost of interpretability. Using COVID-19 in Germany as an example, the Digital Health Geographies Research Group seeks to explore ways to open up these “black boxes” and dissect their algorithms, with the ultimate goal of developing methods for implementing prior geographical knowledge in machine learning.
 
+**VIBRANCE** ***Violência no Brasil: análise de comunidades e espaço / Violence in Brazil: Analysis of Community Environments*** 
+Brazil is known worldwide for its vibrant cultural diversity and beautiful landscapes. However, increasing awareness of deeply embedded  social issues such as social inequality, poverty, and violence underscores the need for more nuanced understandings of their interrelations with space and place. VIBRANCE is a collaborative study bringing together researchers from Brazil, Germany, and Canada to develop and implement innovative interdisciplinary approaches to studying space, place, and violence. By using advanced quantitative techniques and situated qualitative inquiry, VIBRANCE assesses various domains of social and spatial risk factors of violence at multiple scales across the country, seeking to advance understandings of the complex geographies of violence and to identify policies and programmes to reduce the burden of violence in Brazilian communities.
 
-**Mott physics and high-temperature superconductivity.** Questions of interest include: (i), How does the Mott state collapse upon doping and how is this related to the complex phase diagram of high-temperature superconductors? (ii), What is the strange metal phase seen in correlated electron systems? Is this an exotic long-range entangled state? What is the mechanism of dissipation in that state? (iii), Why is the transition temperature in high-temperature superconductors so high? We have worked on iridates, rhodates, and cuprates.
+**COVID-19 Narratives** ***How do (un)informed discourses about pandemics and space develop and (d)evolve through digital (social)media?***
+Using COVID-19 as an example, the Digital Health Geographies research group uses automated knowledge mining methods to investigate, on the basis of different types of text, (1) which spatial-cognitive strategies are used to consistently locate crises outside one’s living environment, (2) which events modify these narratives over time, and (3) how newly emerging arguments discursively re-bind these events. The aim of the study is to alleviate the socioeconomic consequences of crises by revealing the suspensive character of certain narratives for necessary political decision-making processes.
 
-**Nanofabricated "Smart Tips"**.
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SmartTip.png){: style="width: 250px; float: left; margin: 0px  10px"}
-One of the  projects back from my job-proposal is to develop nanofabricated STM tips. The idea behind these “smart tips” is to use the technologies that were developed over decades in nanofabrication and make them available for scanning probe by using a nano-device instead of the traditional STM tungsten tip. One gains the flexibility of using different functionalities that are known from the fields of nanofabrication and mesoscopic physics. We are collaborating with the group Simon Groeblacher at TU Delft to realize this concept, benefitting from their unparalleled micro/nano fabrication know how.  A prototype of a smart tip is shown to the left. See publications in Microsyst Nanoeng, Nanotechnology, and PRB.
+**PURE SPACE** ***Prospective Urban and Rural Epidemiology: Spatial Analysis of Cardiovascular Environments***
+This project seeks to disentangle the complex relationships between socioeconomic status, the built/natural environment, and chronic diseases, specifically focussing on cardiovascular disease and diabetes mellitus risk factors. Using epidemiological techniques and machine learning, we develop socioeconomic and environmental indices to estimate the spatial component of CVD risk. This project is being conducted as part of the [https://www.phri.ca/research/pure/](Prospective Urban and Rural Epidemiology (PURE) Study).
 
-**Josephson STM.** Josephson STM has the ability to gain insight into spatial variations of the order parameter, or superfluid density. We have managed to, for the first time, use JSTM with atomic resolution on a quantum material.
-We have used atomic-resolution Josephson scanning tunneling microscopy to reveal a strongly inhomogeneous superfluid in the iron-based superconductor FeTe0.55Se0.45. The results and their implications are published in Nature.
+**STAGE** ***Spatial Transcoding of Artificial Geographical Environments***
+In the field of Place Research, visual spaces, both real-world and artificial, provide a stage for shared social practice. There exist different forms of visual spaces, ranging from complete virtual worlds over augmented reality to geoservices, which add digital information on site.
+Individual practice is bound to the participant’s specific experiences and cultural context. As it can be revealed by the metaphor of game and play, we explore how these aspects are represented, expressed, and enacted in different game environments. Derived questions cover: How is space used as an element within the game to create a flow state, which binds the player to the game?
 
-We also detected and investigated a quite particular YSR state in the same material.
-
-**Ultra-stable SI-STM instrument.**  ![]({{ site.url }}{{ site.baseurl }}/images/respic/STMHead.png){: style="width: 250px; float: right; margin: 0px 10px"}
-For SI-STM, having the most stable STM head is key. We have used finite element simulations, good choices in material science, and craftsmanship to build the most stable STM head in the world, to our knowledge. See publication in RSI.
-
-
-**Strange Metals.** The strange metal phase might be the most mysterious phase of high-temperature superconductors. Here, the electrical resistivity grows linearly with temperature T in large areas of the phase diagram, with a mean free path that diminishes to a fraction of the interatomic distance. T-linear resistivity is often associated with quantum critical points and marginal-Fermi-liquid physics. In strange metals, the mystery seems to go even further: we deal with something that looks like a quantum critical phase over an extended range of the phase diagram instead of cumulating in a point. There exists no consistent theory for strange metals, leading to more adventurous new approaches including the holographic theories that use insights from gravity to explain strange metals (a recent textbook on this was written by our colleagues at Leiden University, Schalm and Zaanen).
-We are part of the 'Strange Metal consortium NL' that includes the groups of Hussey, Golden, van Heumen, Zaanen, Schalm, Stoof and Vandoren. 
-
-**Magnetic fluctuations and electron spin resonance.**
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SpinFluc.png){: style="width: 70%; float: center; margin: 10px"}
-
-**Twisted bilayer graphene and other material with super-periodicities.**
-We have proposed that artificial super-periodicities can lead to improved superconductivity, both because of increased density of states and because of phase space arguments (see image from our SciPost publication below). Perhaps for different reasons, twisted bilayer graphene has been shown to superconduct! We are investigate this material with the groups of Efetov, Baumberger, and van der Molen.
-
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"}
+**GEM** ***In what ways does greenspace influence human health?***
+Urban greenspaces such as parks, trees, gardens, or green roofs may have a positive effect on physical and mental health. However, the pathways concerning how greenspaces promote health are often complex. For example, higher availability of vegetation contributes to improved air quality and reduces the effects of urban heat islands, access to public parks can provide opportunities for exercise and community building, and higher visible greenness in daily life may reduce stress and anxiety.
+By 2030, 60% of the worlds population will be living in urban environments and even though greenspaces have the potential to buffer the adverse health effects of urban living, studies suggest that this potential often remains underutilised. It is thus important to understand the different types of greenspace exposure (e.g. Accessibility, Availability, and Visibility of Greenspace) and their underlying pathways to assist decision makers and urban designers in their efforts to build healthy and sustainable cities.
+In this project we investigate these complex relationships and effects on human health by building spatial algorithms to improve Greenspace Exposure Modeling.
 
 ### ... and more.
