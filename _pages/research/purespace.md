@@ -8,7 +8,7 @@ permalink: /research/purespace.html
 
 ## PURE SPACE
 ***Prospective Urban and Rural Epidemiology: Spatial Analysis of Cardiovascular Environments***<br>
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="8000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -19,6 +19,9 @@ permalink: /research/purespace.html
     <div class="carousel-inner" markdown="0">
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/respic/DRIGLUCOSE_WeightsPlot.svg" alt="Slide 1" />
+        </div>
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/respic/DRIGLUCOSE_WeightsPlot.png" alt="Slide 1" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/respic/driglucose_index.png" alt="Slide 2" />
@@ -34,4 +37,4 @@ permalink: /research/purespace.html
   </a>
 </div>
 
-This project seeks to disentangle the complex relationships between socioeconomic status, the built/natural environment, and chronic diseases, specifically focussing on cardiovascular disease and diabetes mellitus risk factors. Using epidemiological techniques and machine learning, we develop socioeconomic and environmental indices to estimate the spatial component of CVD risk. This project is being conducted as part of the [Prospective Urban and Rural Epidemiology (PURE) Study](https://www.phri.ca/research/pure/).
+This project seeks to disentangle the complex relationships between socioeconomic status, the built/natural environment, and chronic diseases, specifically focussing on cardiovascular disease (CVD) and diabetes mellitus risk factors. Using epidemiological techniques and machine learning, we develop socioeconomic and environmental indices to estimate the spatial component of CVD risk. This project is being conducted as part of the [Prospective Urban and Rural Epidemiology (PURE) Study](https://www.phri.ca/research/pure/).
