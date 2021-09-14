@@ -5,10 +5,11 @@ excerpt: "CHEST-Lab -- Research."
 sitemap: false
 permalink: /research/purespace.html
 ---
+<!---https://www.iloveimg.com/resize-image-->
 
 ## PURE SPACE
 ***Prospective Urban and Rural Epidemiology: Spatial Analysis of Cardiovascular Environments***<br>
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="8000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="6000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -18,10 +19,7 @@ permalink: /research/purespace.html
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/respic/DRIGLUCOSE_WeightsPlot.svg" alt="Slide 1" />
-        </div>
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/respic/DRIGLUCOSE_WeightsPlot.png" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/respic/driglucose_ses.png" alt="Slide 1" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/respic/driglucose_index.png" alt="Slide 2" />
