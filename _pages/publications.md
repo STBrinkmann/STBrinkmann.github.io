@@ -52,7 +52,7 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 
-## Full List of publications 2
+## Full List of publications
 {% for this_year in (2020..2021) reversed %}
 <h4>{{ this_year }}</h4>
     
