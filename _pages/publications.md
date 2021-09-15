@@ -52,7 +52,7 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 ## Full List of publications
-<!-- if all_years = 2020, 2021 -->
+<!-- if all_years = [2020,2021] -->
 {% for this_year in all_years %}
   <h4>{{ this_year }}</h4> <br />
   
@@ -63,12 +63,4 @@ permalink: /publications/
 	{% endif %}
   {% endfor %}
 
-{% endfor %}
-
-{% for i in (1..5) %}
-  {% if i == 4 %}
-    {% continue %}
-  {% else %}
-    {{ i }}
-  {% endif %}
 {% endfor %}
