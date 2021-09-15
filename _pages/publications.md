@@ -9,7 +9,7 @@ permalink: /publications/
 
 # Publications
 
-## Group highlights
+## Group highlights2
 
 (For a full list of publications see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.ca/citations?hl=en&user=X-eZF2wAAAAJ&view_op=list_works&sortby=pubdate))
 
