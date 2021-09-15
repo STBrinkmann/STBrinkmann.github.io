@@ -16,7 +16,7 @@
   link:
     url: https://doi.org/10.3390/land10050443
     display: Land 2021, 10(5), 44
-  highlight: 0
+  highlight: 1
   news2:
   
 - title: "Spatial-temporal patterns of homicide in socioeconomically deprived settings: violence in Alagoas, Brazil, 2006‒2015"
@@ -108,12 +108,12 @@
   news2:
   
 - title: "Multimorbidity and Socioeconomic Deprivation among Older Adults: A Cross-sectional Analysis in Five Canadian Cities Using the CLSA"
-  image: ""
+  image: scarpone2020.png
   description: ""
   year: 2020
   authors: Wister, A., Rosenkrantz, L., Shashank, A., Walker, B.B., & Schuurman, N.
   link:
     url: https://dx.doi.org/10.1080/26892618.2020.1734138
     display: Journal of Aging and Environment
-  highlight: 0
+  highlight: 1
   news2:
