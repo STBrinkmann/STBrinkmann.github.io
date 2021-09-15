@@ -51,13 +51,43 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
-## Full List of publications
+## Full List of publications 2
 {% for this_year in (2020..2021) reversed %}
   <h4>{{ this_year }}</h4>
     
   {% for publi in site.data.publist %}
+    {% if publi.year == this_year %}
     {{ publi.title }} <br />
     <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+    {% endif %}
+  {% endfor %}
+
+{% endfor %}
+
+
+## Full List of publications 2
+{% for this_year in (2020..2021) reversed %}
+<h4>{{ this_year }}</h4>
+    
+{% for publi in site.data.publist %}
+{% if publi.year == this_year %}
+{{ publi.title }} <br />
+<em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% endif %}
+{% endfor %}
+
+{% endfor %}
+
+
+## Full List of publications 3
+{% for this_year in (2020..2021) reversed %}
+  <h4>{{ this_year }}</h4>
+    
+  {% for publi in site.data.publist %}
+    {% if publi.year == this_year %}
+    <p>{{ publi.title }}</p> <br />
+    <p><em>{{ publi.authors }} </em></p><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+    {% endif %}
   {% endfor %}
 
 {% endfor %}
