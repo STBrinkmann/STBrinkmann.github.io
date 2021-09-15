@@ -62,7 +62,7 @@ We are located at Leiden University, the birthplace of superconductivity and hom
  **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
-We are grateful for funding from [Friedrich-Alexander-University}(https://www.geography.nat.fau.eu/).
+We are grateful for funding from [Friedrich-Alexander-University](https://www.geography.nat.fau.eu/).
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chest_logo_1.PNG" style="width: 210px">
