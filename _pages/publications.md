@@ -63,7 +63,3 @@ permalink: /publications/
   {% endfor %}
 
 {% endfor %}
-
-{% for item in (2020..2021) reversed %}
-  <h3>{{ item }}</h3>
-{% endfor %}
