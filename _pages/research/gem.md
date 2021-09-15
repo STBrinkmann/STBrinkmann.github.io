@@ -1,6 +1,6 @@
 ---
 title: "GEM"
-layout: textlay
+layout: research
 excerpt: "CHEST-Lab -- Research."
 sitemap: false
 permalink: /research/gem.html

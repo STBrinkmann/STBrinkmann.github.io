@@ -1,6 +1,6 @@
 ---
 title: "VIBRANCE"
-layout: textlay
+layout: research
 excerpt: "CHEST-Lab -- Research."
 sitemap: false
 permalink: /research/vibrance.html
