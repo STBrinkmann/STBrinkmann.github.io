@@ -52,8 +52,7 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 ## Full List of publications
-<!-- if all_years = [2020,2021] -->
-{% for this_year in all_years %}
+{% for this_year in (2020..2021) reversed %}
   <h4>{{ this_year }}</h4>
   
   {% for publi in site.data.publist %}
@@ -66,5 +65,5 @@ permalink: /publications/
 {% endfor %}
 
 {% for item in (2020..2021) reversed %}
-  <h4>{{ item }}</h4>
+  <h3>{{ item }}</h3>
 {% endfor %}
