@@ -13,4 +13,4 @@ By 2030, 60% of the worlds population will be living in urban environments and e
 In this project we investigate these complex relationships and effects on human health by building spatial algorithms to improve Greenspace Exposure Modeling.<br>
 
 ### GVI: Greenness Visibility Index
-> Sebastian Brinkmann provides a tool for 3D modelling of greenness visibility, as seen through the eyes of a pedestrian. Using Digital Elevation Models and Land Cover datasets, the GVI enables detailed analysis of the associations between urban greenspace and mental health. The GVI R package is available for free, non-commercial use at [github.com/STBrinkmann/GVI](github.com/STBrinkmann/GVI).
+	Sebastian Brinkmann provides a tool for 3D modelling of greenness visibility, as seen through the eyes of a pedestrian. Using Digital Elevation Models and Land Cover datasets, the GVI enables detailed analysis of the associations between urban greenspace and mental health. The GVI R package is available for free, non-commercial use at [github.com/STBrinkmann/GVI](github.com/STBrinkmann/GVI).
