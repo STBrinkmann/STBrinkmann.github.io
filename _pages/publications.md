@@ -65,4 +65,10 @@ permalink: /publications/
 
 {% endfor %}
 
-
+{% for i in (1..5) %}
+  {% if i == 4 %}
+    {% continue %}
+  {% else %}
+    {{ i }}
+  {% endif %}
+{% endfor %}
