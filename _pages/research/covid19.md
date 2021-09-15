@@ -1,6 +1,6 @@
 ---
 title: "COVID-19"
-layout: textlay
+layout: research
 excerpt: "CHEST-Lab -- Research."
 sitemap: false
 permalink: /research/covid19.html
