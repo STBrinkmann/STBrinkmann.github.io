@@ -95,11 +95,10 @@ firstp {
 }
 
 .col-auto{
-	flex-grow: 1;
     display: block;
     margin: auto;
-    width: 25%;
-	height: auto;
+    width: 40%;
+	height: 100%;
     border: 1px solid #ccc;
 }
 
