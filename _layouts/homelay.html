@@ -1,27 +1,12 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default_with_footer
+---
 
-  {% include head.html %}
+  <div id="homeid" class="col-sm-8">
+        <h1>Welcome to the CHEST-Lab</h1>
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="container-fluid">
-      <div class="row">
-		  <div id="homeid" class="col-sm-8">
-				<h1>Welcome to the CHEST-Lab</h1>
-
-			{{ content }}
-		  </div>
-		  <div id="newsid" class="col-sm-4" >
-			{% include news.html %}
-		  </div>
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+	{{ content }}
+  </div>
+  <div id="newsid" class="col-sm-4" >
+	{% include news.html %}
+  </div>
