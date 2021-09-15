@@ -97,16 +97,17 @@ firstp {
 .col-auto{
     display: block;
     margin: auto;
-	padding:0 15px;
-    width: 50%;
-	height: 200px;
+	margin-right: 5px;
+	margin-left: 5px;
+    min-width: 50%;
+	height: auto;
     border: 1px solid #ccc;
 }
 
 .row{
     display: flex;
-    margin: 0 auto;
-    width: 90%;
-	height: 200px;
+	flex-wrap: wrap;
+    width: 100%;
+	height: 100%;
     flex-direction: row;
 }
