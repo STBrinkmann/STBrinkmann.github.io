@@ -8,7 +8,9 @@ permalink: /research/purespace.html
 <!---https://www.iloveimg.com/resize-image-->
 
 ## PURE SPACE
+<span style="font-family:Times; font-size:20px;">
 ***Prospective Urban and Rural Epidemiology: Spatial Analysis of Cardiovascular Environments***<br>
+</span>
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="6000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
