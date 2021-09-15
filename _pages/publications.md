@@ -52,22 +52,12 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 ## Full List of publications
-<div id="publications" class="col-sm-12">
-  {% for this_year in (2020..2021) reversed %}
-    <h4>{{ this_year }}</h4>
+{% for this_year in (2020..2021) reversed %}
+  <h4>{{ this_year }}</h4>
     
-    {% for publi in site.data.publist %}
-      {% if publi.year == this_year %}
-        {{ publi.title }} <br />
-        <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-	  {% endif %}
-    {% endfor %}
-
+  {% for publi in site.data.publist %}
+    {{ publi.title }} <br />
+    <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
   {% endfor %}
-</div>
 
-## Full List of publications 2
-{% for publi in site.data.publist %}
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 {% endfor %}
