@@ -32,7 +32,7 @@
   
 - title: "A multimethod approach for county-scale geospatial analysis of emerging infectious diseases: a cross-sectional case study of COVID-19 incidence in Germany"
   image: scarpone2020.png
-  description: ""
+  description: "We analyse COVID-19 incidence in Germany using machine learning models within in an Exploratory Spatial Data Analysis (ESDA) framework at the NUTS3 (county) scale"
   year: 2020
   authors: Scarpone C., Brinkmann S.T., Große T., Sonnenwald D., Fuchs M., Walker B.B.
   link:
