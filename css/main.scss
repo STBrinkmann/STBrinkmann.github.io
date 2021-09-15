@@ -96,8 +96,8 @@ firstp {
 
 .col-auto{
     margin: auto;
-    width: 38%;
-	height: 40vh;
+    width: 30%;
+	height: 25vh;
     border: 1px solid #ccc;
 }
 
@@ -106,7 +106,6 @@ firstp {
     flex-flow: row wrap;
 	justify-content: space-evenly;
 	align-items: stretch;
-	gap: 20px;
-    width: 80%;
+    width: 60%;
 	height: 100%;
 }
