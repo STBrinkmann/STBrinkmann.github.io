@@ -17,9 +17,9 @@ permalink: /publications/
 <div class="row">
 {% for publi in site.data.publist %}
 {% if publi.highlight == 1 %}
+<div class="col-auto">
 <div class="col-sm-6 clearfix">
  <div class="well">
- <div class="col-auto">
   <pubtit>{{ publi.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ publi.description }}</p>
@@ -27,8 +27,8 @@ permalink: /publications/
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}&nbsp;&#040;{{ publi.year }}&#041;</a></strong></p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
-  </div>
  </div>
+</div>
 </div>
 {% endif %}
 {% endfor %}
