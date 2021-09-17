@@ -7,7 +7,7 @@ permalink: /research/gem.html
 ---
 
 ## GEM
-<span style="font-family:Times; font-size:20px;">
+<span style="font-family:Times; font-size:20px; line-height: normal;">
 ***Greenspace Exposure Modeling: In what ways does greenspace influence human health?***<br>
 </span>
 Urban greenspaces such as parks, trees, gardens, or green roofs may have a positive effect on physical and mental health. However, the pathways concerning how greenspaces promote health are often complex. For example, higher availability of vegetation contributes to improved air quality and reduces the effects of urban heat islands, access to public parks can provide opportunities for exercise and community building, and higher visible greenness in daily life may reduce stress and anxiety.<br>
