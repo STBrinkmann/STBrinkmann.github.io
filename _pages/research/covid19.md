@@ -9,7 +9,7 @@ permalink: /research/covid19.html
 ## COVID-19
 <span style="font-family:Times; font-size:20px;">
 ***Can artificial intelligence algorithms identify community-scale socioeconomic and built-environment risk factors?***
-</span>
+</span><br>
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/Incidence_rates_map.svg){: style="width: 70%; float: center; margin: 10px"}
 
 The project examines geographical associations between COVID-19, socioeconomic status, and the built/natural environment. Using contemporary spatial epidemiological techniques and Bayesian machine learning we are presently testing novel methodological combinations to triangulate factors underlying the spatial and temporal structures of the epidemic in Germany.<br>
