@@ -7,7 +7,7 @@ permalink: /research/stage.html
 ---
 
 ## STAGE
-<span style="font-family:Times; font-size:20px;">
+<span style="font-family:Times; font-size:20px; line-height: normal;">
 ***Spatial Transcoding of Artificial Geographical Environments***<br>
 </span>
 In the field of Place Research, visual spaces, both real-world and artificial, provide a stage for shared social practice. There exist different forms of visual spaces, ranging from complete virtual worlds over augmented reality to geoservices, which add digital information on site.<br>
