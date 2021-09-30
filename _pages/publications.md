@@ -59,10 +59,16 @@ permalink: /publications/
 {% for publi in site.data.publist %}
 
 {% if publi.year == this_year %}
+
 {{ publi.title }} <br />
+{% if publi.link.url != "" %}
 <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 {% endif %}
+{% if publi.link.url == "" %}
+<em>{{ publi.authors }} </em><br /><a{{ publi.link.display }}</a>
+{% endif %}
 
+{% endif %}
 {% endfor %}
 
 {% endfor %}
@@ -70,8 +76,15 @@ permalink: /publications/
 {% for publi in site.data.publist %}
 
 {% if publi.year < 2018 %}
+
 {{ publi.title }} <br />
+{% if publi.link.url != "" %}
 <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% endif %}
+{% if publi.link.url == "" %}
+<em>{{ publi.authors }} </em><br /><a{{ publi.link.display }}</a>
+{% endif %}
+
 {% endif %}
 
 {% endfor %}
