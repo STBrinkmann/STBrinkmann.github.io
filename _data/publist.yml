@@ -53,14 +53,14 @@
   news2:
 
 - title: "A multimethod approach for county-scale geospatial analysis of emerging infectious diseases: a cross-sectional case study of COVID-19 incidence in Germany"
-  image: ""
-  description: ""
+  image: "scarpone2020.png"
+  description: "We analyse COVID-19 incidence in Germany using machine learning models within in an Exploratory Spatial Data Analysis (ESDA) framework at the NUTS3 (county) scale"
   year: 2020
   authors: C Scarpone, ST Brinkmann, T Große, D Sonnenwald, M Fuchs, BB Walker
   link:
     url: https://ij-healthgeographics.biomedcentral.com/articles/10.1186/s12942-020-00225-1
     display: Int. J. Health Geogr., 19 (1), 1-17
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "Cancer resection rates, socioeconomic deprivation, and geographical access to surgery among urban, suburban, and rural populations across Canada"
@@ -141,14 +141,14 @@
   news2:
 
 - title: "Towards a situated spatial epidemiology of violence: a placially-informed geospatial analysis of homicide in Alagoas, Brazil"
-  image: ""
+  image: "ijerph17249283.png"
   description: ""
   year: 2020
   authors: BB Walker, C Moura de Souza, E Pedroso, RS Lai, P Hunter, J Tam, ...
   link:
     url: https://www.mdpi.com/1660-4601/17/24/9283
     display: 	Int. J. Environ. Res. Public Health, 17 (24), 9283
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "A GIS Analysis of East Asian Care Gaps in Residential and Assisted Living Facilities in Vancouver, Canada"
