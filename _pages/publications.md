@@ -65,7 +65,7 @@ permalink: /publications/
 <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 {% endif %}
 {% if publi.link.url == "" %}
-<em>{{ publi.authors }} </em><br /><a{{ publi.link.display }}</a>
+<em>{{ publi.authors }} </em><br />{{ publi.link.display }}
 {% endif %}
 
 {% endif %}
@@ -82,7 +82,7 @@ permalink: /publications/
 <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 {% endif %}
 {% if publi.link.url == "" %}
-<em>{{ publi.authors }} </em><br /><a{{ publi.link.display }}</a>
+<em>{{ publi.authors }} </em><br />{{ publi.link.display }}
 {% endif %}
 
 {% endif %}
