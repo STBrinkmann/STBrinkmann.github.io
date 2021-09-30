@@ -8,112 +8,486 @@
 #  highlight: 0
 #  news2:
 
-- title: "Key Challenges for Land Use Planning and Its Environmental Assessments in the Abuja City-Region, Nigeria"
-  image: land10050443.png
+- title: "Armed conflict and cross-border asymmetries in urban development: A contextualized spatial analysis of Goma, Democratic Republic of the Congo and Gisenyi, Rwanda"
+  image: ""
   description: ""
   year: 2021
-  authors: Enoguanbhor, E.C., Gollnow, F., Walker, BB., Nielsen, J.O., & Lakes, T.
-  link:
-    url: https://doi.org/10.3390/land10050443
-    display: Land 2021, 10(5), 44
+  authors: P Lisa, L Christian, B Karen, W Blake
+  link: ""
+    url: ""
+    display: "Land Use Policy, 109, 105711"
   highlight: 0
-  news2:
-  
+  news2: ""
+
+- title: "GIS-based multicriteria evaluation for earthquake response: a case study of expert opinion in Vancouver, Canada"
+  image: ""
+  description: ""
+  year: 2021
+  authors: BB Walker, N Schuurman, D Swanlund, JJ Clague
+  link: ""
+    url: ""
+    display: "Nat. Hazards, 105 (2), 2075-2091"
+  highlight: 0
+  news2: ""
+
+- title: "Key Challenges for Land Use Planning and Its Environmental Assessments in the Abuja City-Region, Nigeria"
+  image: "land10050443.png"
+  description: ""
+  year: 2021
+  authors: EC Enoguanbhor, F Gollnow, BB Walker, JO Nielsen, T Lakes
+  link: ""
+    url: ""
+    display: "Land, 10 (5), 443"
+  highlight: 0
+  news2: ""
+
 - title: "Spatial-temporal patterns of homicide in socioeconomically deprived settings: violence in Alagoas, Brazil, 2006‒2015"
   image: ""
   description: ""
   year: 2021
-  authors: Barbosa, K.G.N., Walker, B.B., Vieira Da Silva, A., Procopio Gonzaga, G.L., Maio De Brum, E.H., & Ribeiro, M.C.
-  link:
-    url: https://doi.org/10.1080/16549716.2021.1952752
-    display: Global Health Action , 14(1)
+  authors: KG Nóbrega Barbosa, BB Walker, A Vieira da Silva, ...
+  link: ""
+    url: ""
+    display: "Glob. Health Action, 14 (1), 1952752"
   highlight: 0
-  news2:
-  
+  news2: ""
+
 - title: "A multimethod approach for county-scale geospatial analysis of emerging infectious diseases: a cross-sectional case study of COVID-19 incidence in Germany"
-  image: scarpone2020.png
+  image: "scarpone2020.png"
   description: "We analyse COVID-19 incidence in Germany using machine learning models within in an Exploratory Spatial Data Analysis (ESDA) framework at the NUTS3 (county) scale"
   year: 2020
-  authors: Scarpone C., Brinkmann S.T., Große T., Sonnenwald D., Fuchs M., Walker B.B.
-  link:
-    url: https://doi.org/10.1186/s12942-020-00225-1
-    display: Int J Health Geogr 19, 32
+  authors: C Scarpone, ST Brinkmann, T Große, D Sonnenwald, M Fuchs, BB Walker
+  link: ""
+    url: ""
+    display: "Int. J. Health Geogr., 19 (1), 1-17"
   highlight: 1
-  news2:
-  
-- title: "Simulating Urban Land Expansion in the Context of Land Use Planning in the Abuja City-Region, Nigeria"
-  image: ""
-  description: ""
-  year: 2020
-  authors: Enoguanbhor, E.C., Gollnow, F., Walker, B.B., Nielsen, J.O., & Lakes, T.
-  link:
-    url: https://doi.org/10.1007/s10708-020-10317-x
-    display: GeoJournal (2020)
-  highlight: 0
-  news2:
-  
-- title: "Perceived differences in the (re)production of environmental deprivation between sub-populations: A study combining citizens’ perceptions with remote-sensed and administrative data"
-  image: ""
-  description: ""
-  year: 2020
-  authors: Ho, H.C., Man, H.Y., Wong, M.S., Shi, Y., & Walker, B.B.
-  link:
-    url: https://dx.doi.org/10.1016/j.buildenv.2020.106769
-    display: Building and Environment, 174
-  highlight: 0
-  news2:
-  
-- title: "Qualitative field observation of pedestrian injury hotspots: A mixed-methods approach for developing built- and socioeconomic-environmental risk signatures"
-  image: ""
-  description: ""
-  year: 2020
-  authors: Schuurman, N., Walker, B.B., Swanlund, D., Amram, O., & Yanchar, N.L.
-  link:
-    url: https://dx.doi.org/10.3390/ijerph17062066
-    display: International Journal of Environmental Research and Public Health, 17(6)
-  highlight: 0
-  news2:
-  
-- title: "Towards a Situated Spatial Epidemiology of Violence: A Placially-Informed Geospatial Analysis of Homicide in Alagoas, Brazil"
-  image: "ijerph17249283.png"
-  description: ""
-  year: 2020
-  authors: Walker, B.B.; Moura de Souza, C.; Pedroso, E.; Lai, R.S.; Hunter, P.; Tam, J.; Cave, I.; Swanlund, D.; Barbosa, K.G.N.
-  link:
-    url: https://dx.doi.org/10.3390/ijerph17249283
-    display: International Journal of Environmental Research and Public Health, 17(24)
-  highlight: 1
-  news2:
-  
-- title: "GIS-based multicriteria evaluation for earthquake response: a case study of expert opinion in Vancouver, Canada"
-  image: ""
-  description: ""
-  year: 2020
-  authors: Walker, B.B., Schuurman, N., Swanlund, D., & Clague, J.J.
-  link:
-    url: https://dx.doi.org/10.1007/s11069-020-04390-1
-    display:  Natural Hazards
-  highlight: 0
-  news2:
-  
+  news2: ""
+
 - title: "Cancer resection rates, socioeconomic deprivation, and geographical access to surgery among urban, suburban, and rural populations across Canada"
   image: ""
   description: ""
   year: 2020
-  authors: Walker, B.B., Schuurman, N., Wen, C.K., Shakeel, S., Schneider, L., & Finley, C.
-  link:
-    url: https://dx.doi.org/10.1371/journal.pone.0240444
-    display: PLoS ONE, 15(10)
+  authors: BB Walker, N Schuurman, CK Wen, S Shakeel, L Schneider, C Finley
+  link: ""
+    url: ""
+    display: "PloS one, 15 (10), e0240444"
   highlight: 0
-  news2:
-  
-- title: "Multimorbidity and Socioeconomic Deprivation among Older Adults: A Cross-sectional Analysis in Five Canadian Cities Using the CLSA"
+  news2: ""
+
+- title: "Multimorbidity and socioeconomic deprivation among older adults: A cross-sectional analysis in five Canadian Cities Using the CLSA"
   image: ""
   description: ""
   year: 2020
-  authors: Wister, A., Rosenkrantz, L., Shashank, A., Walker, B.B., & Schuurman, N.
-  link:
-    url: https://dx.doi.org/10.1080/26892618.2020.1734138
-    display: Journal of Aging and Environment
+  authors: A Wister, L Rosenkrantz, A Shashank, BB Walker, N Schuurman
+  link: ""
+    url: ""
+    display: "J. Aging Health, 34 (4), 435-454"
   highlight: 0
-  news2:
+  news2: ""
+
+- title: "Perceived differences in the (re) production of environmental deprivation between sub-populations: A study combining citizens’ perceptions with remote-sensed and administrative …"
+  image: ""
+  description: ""
+  year: 2020
+  authors: HC Ho, HY Man, MS Wong, Y Shi, BB Walker
+  link: ""
+    url: ""
+    display: "Building and Environment, 174, 106769"
+  highlight: 0
+  news2: ""
+
+- title: "Qualitative field observation of pedestrian injury hotspots: a mixed-methods approach for developing built-and socioeconomic-environmental risk signatures"
+  image: ""
+  description: ""
+  year: 2020
+  authors: N Schuurman, BB Walker, D Swanlund, O Amram, NL Yanchar
+  link: ""
+    url: ""
+    display: "	Int. J. Environ. Res. Public Health, 17 (6), 2066"
+  highlight: 0
+  news2: ""
+
+- title: "Simulating Urban Land Expansion in the Context of Land Use Planning in the Abuja City-Region, Nigeria"
+  image: ""
+  description: ""
+  year: 2020
+  authors: EC Enoguanbhor, F Gollnow, BB Walker, JO Nielsen, T Lakes
+  link: ""
+    url: ""
+    display: "GeoJournal, 1-19"
+  highlight: 0
+  news2: ""
+
+- title: "Spatial-temporal patterns and trends of homicide in socioeconomically deprived settings: violence surveillance in Alagoas, Brazil, 2006‒2015"
+  image: ""
+  description: ""
+  year: 2020
+  authors: KGN Barbosa, BB Walker, AV da Silva, GLP Gonzaga, EHM de Brum, ...
+  link: ""
+    url: ""
+    display: "Glob. Health Action, 14 (1)"
+  highlight: 0
+  news2: ""
+
+- title: "The local food environment and obesity: evidence from three cities"
+  image: ""
+  description: ""
+  year: 2020
+  authors: BB Walker, A Shashank, D Gasevic, N Schuurman, P Poirier, K Teo, ...
+  link: ""
+    url: ""
+    display: "Obesity, 28 (1), 40-45"
+  highlight: 0
+  news2: ""
+
+- title: "Towards a situated spatial epidemiology of violence: a placially-informed geospatial analysis of homicide in Alagoas, Brazil"
+  image: "ijerph17249283.png"
+  description: ""
+  year: 2020
+  authors: BB Walker, C Moura de Souza, E Pedroso, RS Lai, P Hunter, J Tam, ...
+  link: ""
+    url: ""
+    display: "	Int. J. Environ. Res. Public Health, 17 (24), 9283"
+  highlight: 1
+  news2: ""
+
+- title: "A GIS Analysis of East Asian Care Gaps in Residential and Assisted Living Facilities in Vancouver, Canada"
+  image: ""
+  description: ""
+  year: 2019
+  authors: BB Walker, SL Canham, A Wister, ML Fang
+  link: ""
+    url: ""
+    display: "J. Hous. Elder., 33 (2), 103-119"
+  highlight: 0
+  news2: ""
+
+- title: "Epidemiological and spatial characteristics of interpersonal physical violence in a Brazilian city: A comparative study of violent injury hotspots in familial versus non …"
+  image: ""
+  description: ""
+  year: 2019
+  authors: KGN Barbosa, BB Walker, N Schuurman, SDLB Cavalcanti, ...
+  link: ""
+    url: ""
+    display: "PloS one, 14 (1), e0208304"
+  highlight: 0
+  news2: ""
+
+- title: "Land cover change in the Abuja City-region, Nigeria: Integrating GIS and remotely sensed data to support land use planning"
+  image: ""
+  description: ""
+  year: 2019
+  authors: EC Enoguanbhor, F Gollnow, JO Nielsen, T Lakes, BB Walker
+  link: ""
+    url: ""
+    display: "Sustainability, 11 (5), 1313"
+  highlight: 0
+  news2: ""
+
+- title: "Volunteer first responders for optimizing management of mass casualty incidents"
+  image: ""
+  description: ""
+  year: 2019
+  authors: E Yafe, BB Walker, O Amram, N Schuurman, E Randall, M Friger, B Adini
+  link: ""
+    url: ""
+    display: "DMPHP, 13 (2), 287-294"
+  highlight: 0
+  news2: ""
+
+- title: "Cluster analysis for the derivation of agents for ABMs in the context of an ageing, super-diverse population: a mixed-methods approach"
+  image: ""
+  description: ""
+  year: 2018
+  authors: H Haacke, F Enssle, I Helbrecht, T Lakes, BB Walker
+  link: ""
+    url: ""
+    display: ", "
+  highlight: 0
+  news2: ""
+
+- title: "The Heat Exposure Integrated Deprivation Index (HEIDI): A Data-Driven Approach to Mapping Extreme Hot Weather Risk"
+  image: ""
+  description: ""
+  year: 2018
+  authors: SB Henderson, N Krstic, W Yuchi, HC Ho, BB Walker, AJ Knudby
+  link: ""
+    url: ""
+    display: "ISEE Conference Abstracts, 109, 42-52"
+  highlight: 0
+  news2: ""
+
+- title: "CHANGE DETECTION IN BONE HISTOLOGY USING RASTER-BASED GEOGRAPHICAL INFORMATION SYSTEMS"
+  image: ""
+  description: ""
+  year: 2017
+  authors: S Michener, L Bell, B Walker, N Schuurman
+  link: ""
+    url: ""
+    display: "Forensic Sci. Int., 277, 57-58"
+  highlight: 0
+  news2: ""
+
+- title: "Delineation of spatial variability in the temperature–mortality relationship on extremely hot days in greater Vancouver, Canada"
+  image: ""
+  description: ""
+  year: 2017
+  authors: HC Ho, A Knudby, BB Walker, SB Henderson
+  link: ""
+    url: ""
+    display: "Environ. Health Perspect., 125 (1), 66-75"
+  highlight: 0
+  news2: ""
+
+- title: "Gaps in Facility Care for East Asian Cultural Groups in Selected GVRD Communities: A Geographic Information Systems and Focus Group Report"
+  image: ""
+  description: ""
+  year: 2017
+  authors: A Wister, S Canham, BB Walker
+  link: ""
+    url: ""
+    display: "Gerontology Research Centre, Simon Fraser University, "
+  highlight: 0
+  news2: ""
+
+- title: "Socioeconomic disparities in head and neck cancer patients' access to cancer treatment centers"
+  image: ""
+  description: ""
+  year: 2017
+  authors: BB Walker, N Schuurman, A Auluck, SA Lear, M Rosin
+  link: ""
+    url: ""
+    display: "Rural Remote Health, 17 (3), 4210"
+  highlight: 0
+  news2: ""
+
+- title: "The Heat Exposure Integrated Deprivation Index (HEIDI): A data-driven approach to quantifying neighborhood risk during extreme hot weather"
+  image: ""
+  description: ""
+  year: 2017
+  authors: N Krstic, W Yuchi, HC Ho, BB Walker, AJ Knudby, SB Henderson
+  link: ""
+    url: ""
+    display: "Environ. Int., 109, 42-52"
+  highlight: 0
+  news2: ""
+
+- title: "A description of methods for deriving air pollution land use regression model predictor variables from remote sensing data in Ulaanbaatar, Mongolia"
+  image: ""
+  description: ""
+  year: 2016
+  authors: W Yuchi, A Knudby, J Cowper, E Gombojav, O Amram, BB Walker, ...
+  link: ""
+    url: ""
+    display: "TCG, 60 (3), 333-345"
+  highlight: 0
+  news2: ""
+
+- title: "Disparities in paediatric injury mortality between aboriginal and non-aboriginal populations in British Columbia, 2001–2009"
+  image: ""
+  description: ""
+  year: 2016
+  authors: O Amram, BB Walker, N Schuurman, I Pike, N Yanchar
+  link: ""
+    url: ""
+    display: "	Int. J. Environ. Res. Public Health, 13 (7), 651"
+  highlight: 0
+  news2: ""
+
+- title: "Making connections in a tough data scene"
+  image: ""
+  description: ""
+  year: 2016
+  authors: BB Walker
+  link: ""
+    url: ""
+    display: "TCG, 60 (3), 285-287"
+  highlight: 0
+  news2: ""
+
+- title: "PT018 A Spatial Epidemiology Approach to Environmental CVD Risk: Case Studies of Food Environments and Obesity in Three Canadian Cities"
+  image: ""
+  description: ""
+  year: 2016
+  authors: BB Walker, N Schuurman, D Gašević, KK Teo, GR Dagenais, S Yusuf, ...
+  link: ""
+    url: ""
+    display: "Global Heart, 2 (11), e129-e130"
+  highlight: 0
+  news2: ""
+
+- title: "Socio-economic deprivation: a significant determinant affecting stage of oral cancer diagnosis and survival"
+  image: ""
+  description: ""
+  year: 2016
+  authors: A Auluck, BB Walker, G Hislop, SA Lear, N Schuurman, M Rosin
+  link: ""
+    url: ""
+    display: "BMC Cancer, 16 (1), 1-10"
+  highlight: 0
+  news2: ""
+
+- title: "Spatial distribution of individuals with symptoms of depression in a periurban area in Lima: an example from Peru"
+  image: ""
+  description: ""
+  year: 2016
+  authors: P Ruiz-Grosso, JJ Miranda, RH Gilman, BB Walker, G Carrasco-Escobar, ...
+  link: ""
+    url: ""
+    display: "Ann. Epidemiol., 26 (2), 93-99. e2"
+  highlight: 0
+  news2: ""
+
+- title: "Towards a suburban spatial epidemiology: differentiating geographical patterns of cancer incidence, patient access, and surgical treatment in Canada’s urban fringe"
+  image: ""
+  description: ""
+  year: 2016
+  authors: BB Walker
+  link: ""
+    url: ""
+    display: "Department of Geography, Simon Fraser University, "
+  highlight: 0
+  news2: ""
+
+- title: "Intentional injury and violence in Cape Town, South Africa: an epidemiological analysis of trauma admissions data"
+  image: ""
+  description: ""
+  year: 2015
+  authors: N Schuurman, J Cinnamon, BB Walker, V Fawcett, A Nicol, SM Hameed, ...
+  link: ""
+    url: ""
+    display: "Glob. Health Action, 8 (1), 27016"
+  highlight: 0
+  news2: ""
+
+- title: "Painting the Town Red: Graffiti and Violent Injury in Vancouver, British Columbia"
+  image: ""
+  description: ""
+  year: 2015
+  authors: BB Walker, N Schuurman
+  link: ""
+    url: ""
+    display: "Department of Geography, Simon Fraser University, "
+  highlight: 0
+  news2: ""
+
+- title: "Suburbanisation of oral cavity cancers: evidence from a geographically-explicit observational study of incidence trends in British Columbia, Canada, 1981–2010"
+  image: ""
+  description: ""
+  year: 2015
+  authors: BB Walker, N Schuurman, A Auluck, SA Lear, M Rosin
+  link: ""
+    url: ""
+    display: "BMC Public Health, 15 (1), 1-9"
+  highlight: 0
+  news2: ""
+
+- title: "The pen or the sword: a situated spatial analysis of graffiti and violent injury in Vancouver, British Columbia"
+  image: ""
+  description: ""
+  year: 2015
+  authors: BB Walker, N Schuurman
+  link: ""
+    url: ""
+    display: "The Professional Geographer, 67 (4), 608-619"
+  highlight: 0
+  news2: ""
+
+- title: "A GIS-based spatiotemporal analysis of violent trauma hotspots in Vancouver, Canada: identification, contextualisation and intervention"
+  image: ""
+  description: ""
+  year: 2014
+  authors: BB Walker, N Schuurman, SM Hameed
+  link: ""
+    url: ""
+    display: "BMJ open, 4 (2), e003642"
+  highlight: 0
+  news2: ""
+
+- title: "A multi-criteria evaluation model of earthquake vulnerability in Victoria, British Columbia"
+  image: ""
+  description: ""
+  year: 2014
+  authors: BB Walker, C Taylor-Noonan, A Tabbernor, TB McKinnon, H Bal, ...
+  link: ""
+    url: ""
+    display: "Nat. Hazards, 74 (2), 1209-1222"
+  highlight: 0
+  news2: ""
+
+- title: "Population-based incidence trends of oropharyngeal and oral cavity cancers by sex among the poorest and underprivileged populations"
+  image: ""
+  description: ""
+  year: 2014
+  authors: A Auluck, BB Walker, G Hislop, SA Lear, N Schuurman, M Rosin
+  link: ""
+    url: ""
+    display: "BMC Cancer, 14 (1), 1-11"
+  highlight: 0
+  news2: ""
+
+- title: "Spatial patterns of head and neck cancers in British Columbia"
+  image: ""
+  description: ""
+  year: 2014
+  authors: BB Walker, A Auluck, M Rosin, N Schuurman
+  link: ""
+    url: ""
+    display: "Spatial Knowledge and Information Canada, "
+  highlight: 0
+  news2: ""
+
+- title: "A Qualitative Framework for Evaluating Participation on the Geoweb"
+  image: ""
+  description: ""
+  year: 2013
+  authors: BB Walker, C Rinner
+  link: ""
+    url: ""
+    display: "URISA Journal, 25 (2), 15-24"
+  highlight: 0
+  news2: ""
+
+- title: "Spatial-temporal epidemiology of violent trauma in urban environments"
+  image: ""
+  description: ""
+  year: 2013
+  authors: BB Walker
+  link: ""
+    url: ""
+    display: "Department of Geography, Simon Fraser University, "
+  highlight: 0
+  news2: ""
+
+- title: "Environmental Correlates with Violent Injury"
+  image: ""
+  description: ""
+  year: 2012
+  authors: BB Walker, N Schuurman
+  link: ""
+    url: ""
+    display: "Geomatica, 66 (4), 269-278"
+  highlight: 0
+  news2: ""
+
+- title: "Web-Based Participatory Mapping for Parole Boundary Deliberation"
+  image: ""
+  description: ""
+  year: 2011
+  authors: BB Walker
+  link: ""
+    url: ""
+    display: ", "
+  highlight: 0
+  news2: ""
+
+- title: "A Web-Based, Interactive Map of Community Resources in the City of Toronto"
+  image: ""
+  description: ""
+  year: 2010
+  authors: BB Walker, L Smith, S Munshi, C Rinner
+  link: ""
+    url: ""
+    display: ", "
+  highlight: 0
+  news2: ""
