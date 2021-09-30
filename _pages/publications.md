@@ -53,7 +53,7 @@ permalink: /publications/
 
 
 ## Full List of publications
-{% for this_year in (2020..2021) reversed %}
+{% for this_year in (2018..2021) reversed %}
 <h4>{{ this_year }}</h4>
     
 {% for publi in site.data.publist %}
@@ -64,5 +64,14 @@ permalink: /publications/
 {% endif %}
 
 {% endfor %}
+
+{% endfor %}
+#### Before 2018
+{% for publi in site.data.publist %}
+
+{% if publi.year < 2018 %}
+{{ publi.title }} <br />
+<em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% endif %}
 
 {% endfor %}
