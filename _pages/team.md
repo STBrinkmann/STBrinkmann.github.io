@@ -145,7 +145,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="col-sm-4 clearfix">
 <h4>Master students</h4>
 {% for member in site.data.alumni_msc %}
-{{ member.name }}, {{ member.year }}
+{{ member.name }}, {{ member.year }}<br>
 <i>{{ member.thesis }}</i>
 {% endfor %}
 </div>
@@ -153,7 +153,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>
 {% for member in site.data.alumni_bsc %}
-{{ member.name }}, {{ member.year }}
+{{ member.name }}, {{ member.year }}<br>
 <i>{{ member.thesis }}</i>
 {% endfor %}
 </div>
