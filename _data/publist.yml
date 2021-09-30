@@ -13,7 +13,7 @@
   description: ""
   year: 2021
   authors: P Lisa, L Christian, B Karen, W Blake
-  link: ""
+  link:
     url: ""
     display: "Land Use Policy, 109, 105711"
   highlight: 0
@@ -24,7 +24,7 @@
   description: ""
   year: 2021
   authors: BB Walker, N Schuurman, D Swanlund, JJ Clague
-  link: ""
+  link:
     url: ""
     display: "Nat. Hazards, 105 (2), 2075-2091"
   highlight: 0
@@ -35,7 +35,7 @@
   description: ""
   year: 2021
   authors: EC Enoguanbhor, F Gollnow, BB Walker, JO Nielsen, T Lakes
-  link: ""
+  link:
     url: ""
     display: "Land, 10 (5), 443"
   highlight: 0
@@ -46,7 +46,7 @@
   description: ""
   year: 2021
   authors: KG Nóbrega Barbosa, BB Walker, A Vieira da Silva, ...
-  link: ""
+  link:
     url: ""
     display: "Glob. Health Action, 14 (1), 1952752"
   highlight: 0
@@ -57,7 +57,7 @@
   description: "We analyse COVID-19 incidence in Germany using machine learning models within in an Exploratory Spatial Data Analysis (ESDA) framework at the NUTS3 (county) scale"
   year: 2020
   authors: C Scarpone, ST Brinkmann, T Große, D Sonnenwald, M Fuchs, BB Walker
-  link: ""
+  link:
     url: ""
     display: "Int. J. Health Geogr., 19 (1), 1-17"
   highlight: 1
@@ -68,7 +68,7 @@
   description: ""
   year: 2020
   authors: BB Walker, N Schuurman, CK Wen, S Shakeel, L Schneider, C Finley
-  link: ""
+  link:
     url: ""
     display: "PloS one, 15 (10), e0240444"
   highlight: 0
@@ -79,7 +79,7 @@
   description: ""
   year: 2020
   authors: A Wister, L Rosenkrantz, A Shashank, BB Walker, N Schuurman
-  link: ""
+  link:
     url: ""
     display: "J. Aging Health, 34 (4), 435-454"
   highlight: 0
@@ -90,7 +90,7 @@
   description: ""
   year: 2020
   authors: HC Ho, HY Man, MS Wong, Y Shi, BB Walker
-  link: ""
+  link:
     url: ""
     display: "Building and Environment, 174, 106769"
   highlight: 0
@@ -101,7 +101,7 @@
   description: ""
   year: 2020
   authors: N Schuurman, BB Walker, D Swanlund, O Amram, NL Yanchar
-  link: ""
+  link:
     url: ""
     display: "	Int. J. Environ. Res. Public Health, 17 (6), 2066"
   highlight: 0
@@ -112,7 +112,7 @@
   description: ""
   year: 2020
   authors: EC Enoguanbhor, F Gollnow, BB Walker, JO Nielsen, T Lakes
-  link: ""
+  link:
     url: ""
     display: "GeoJournal, 1-19"
   highlight: 0
@@ -123,7 +123,7 @@
   description: ""
   year: 2020
   authors: KGN Barbosa, BB Walker, AV da Silva, GLP Gonzaga, EHM de Brum, ...
-  link: ""
+  link:
     url: ""
     display: "Glob. Health Action, 14 (1)"
   highlight: 0
@@ -134,7 +134,7 @@
   description: ""
   year: 2020
   authors: BB Walker, A Shashank, D Gasevic, N Schuurman, P Poirier, K Teo, ...
-  link: ""
+  link:
     url: ""
     display: "Obesity, 28 (1), 40-45"
   highlight: 0
@@ -145,7 +145,7 @@
   description: ""
   year: 2020
   authors: BB Walker, C Moura de Souza, E Pedroso, RS Lai, P Hunter, J Tam, ...
-  link: ""
+  link:
     url: ""
     display: "	Int. J. Environ. Res. Public Health, 17 (24), 9283"
   highlight: 1
@@ -156,7 +156,7 @@
   description: ""
   year: 2019
   authors: BB Walker, SL Canham, A Wister, ML Fang
-  link: ""
+  link:
     url: ""
     display: "J. Hous. Elder., 33 (2), 103-119"
   highlight: 0
@@ -167,7 +167,7 @@
   description: ""
   year: 2019
   authors: KGN Barbosa, BB Walker, N Schuurman, SDLB Cavalcanti, ...
-  link: ""
+  link:
     url: ""
     display: "PloS one, 14 (1), e0208304"
   highlight: 0
@@ -178,7 +178,7 @@
   description: ""
   year: 2019
   authors: EC Enoguanbhor, F Gollnow, JO Nielsen, T Lakes, BB Walker
-  link: ""
+  link:
     url: ""
     display: "Sustainability, 11 (5), 1313"
   highlight: 0
@@ -189,7 +189,7 @@
   description: ""
   year: 2019
   authors: E Yafe, BB Walker, O Amram, N Schuurman, E Randall, M Friger, B Adini
-  link: ""
+  link:
     url: ""
     display: "DMPHP, 13 (2), 287-294"
   highlight: 0
@@ -200,7 +200,7 @@
   description: ""
   year: 2018
   authors: H Haacke, F Enssle, I Helbrecht, T Lakes, BB Walker
-  link: ""
+  link:
     url: ""
     display: ", "
   highlight: 0
@@ -211,7 +211,7 @@
   description: ""
   year: 2018
   authors: SB Henderson, N Krstic, W Yuchi, HC Ho, BB Walker, AJ Knudby
-  link: ""
+  link:
     url: ""
     display: "ISEE Conference Abstracts, 109, 42-52"
   highlight: 0
@@ -222,7 +222,7 @@
   description: ""
   year: 2017
   authors: S Michener, L Bell, B Walker, N Schuurman
-  link: ""
+  link:
     url: ""
     display: "Forensic Sci. Int., 277, 57-58"
   highlight: 0
@@ -233,7 +233,7 @@
   description: ""
   year: 2017
   authors: HC Ho, A Knudby, BB Walker, SB Henderson
-  link: ""
+  link:
     url: ""
     display: "Environ. Health Perspect., 125 (1), 66-75"
   highlight: 0
@@ -244,7 +244,7 @@
   description: ""
   year: 2017
   authors: A Wister, S Canham, BB Walker
-  link: ""
+  link:
     url: ""
     display: "Gerontology Research Centre, Simon Fraser University, "
   highlight: 0
@@ -255,7 +255,7 @@
   description: ""
   year: 2017
   authors: BB Walker, N Schuurman, A Auluck, SA Lear, M Rosin
-  link: ""
+  link:
     url: ""
     display: "Rural Remote Health, 17 (3), 4210"
   highlight: 0
@@ -266,7 +266,7 @@
   description: ""
   year: 2017
   authors: N Krstic, W Yuchi, HC Ho, BB Walker, AJ Knudby, SB Henderson
-  link: ""
+  link:
     url: ""
     display: "Environ. Int., 109, 42-52"
   highlight: 0
@@ -277,7 +277,7 @@
   description: ""
   year: 2016
   authors: W Yuchi, A Knudby, J Cowper, E Gombojav, O Amram, BB Walker, ...
-  link: ""
+  link:
     url: ""
     display: "TCG, 60 (3), 333-345"
   highlight: 0
@@ -288,7 +288,7 @@
   description: ""
   year: 2016
   authors: O Amram, BB Walker, N Schuurman, I Pike, N Yanchar
-  link: ""
+  link:
     url: ""
     display: "	Int. J. Environ. Res. Public Health, 13 (7), 651"
   highlight: 0
@@ -299,7 +299,7 @@
   description: ""
   year: 2016
   authors: BB Walker
-  link: ""
+  link:
     url: ""
     display: "TCG, 60 (3), 285-287"
   highlight: 0
@@ -310,7 +310,7 @@
   description: ""
   year: 2016
   authors: BB Walker, N Schuurman, D Gašević, KK Teo, GR Dagenais, S Yusuf, ...
-  link: ""
+  link:
     url: ""
     display: "Global Heart, 2 (11), e129-e130"
   highlight: 0
@@ -321,7 +321,7 @@
   description: ""
   year: 2016
   authors: A Auluck, BB Walker, G Hislop, SA Lear, N Schuurman, M Rosin
-  link: ""
+  link:
     url: ""
     display: "BMC Cancer, 16 (1), 1-10"
   highlight: 0
@@ -332,7 +332,7 @@
   description: ""
   year: 2016
   authors: P Ruiz-Grosso, JJ Miranda, RH Gilman, BB Walker, G Carrasco-Escobar, ...
-  link: ""
+  link:
     url: ""
     display: "Ann. Epidemiol., 26 (2), 93-99. e2"
   highlight: 0
@@ -343,7 +343,7 @@
   description: ""
   year: 2016
   authors: BB Walker
-  link: ""
+  link:
     url: ""
     display: "Department of Geography, Simon Fraser University, "
   highlight: 0
@@ -354,7 +354,7 @@
   description: ""
   year: 2015
   authors: N Schuurman, J Cinnamon, BB Walker, V Fawcett, A Nicol, SM Hameed, ...
-  link: ""
+  link:
     url: ""
     display: "Glob. Health Action, 8 (1), 27016"
   highlight: 0
@@ -365,7 +365,7 @@
   description: ""
   year: 2015
   authors: BB Walker, N Schuurman
-  link: ""
+  link:
     url: ""
     display: "Department of Geography, Simon Fraser University, "
   highlight: 0
@@ -376,7 +376,7 @@
   description: ""
   year: 2015
   authors: BB Walker, N Schuurman, A Auluck, SA Lear, M Rosin
-  link: ""
+  link:
     url: ""
     display: "BMC Public Health, 15 (1), 1-9"
   highlight: 0
@@ -387,7 +387,7 @@
   description: ""
   year: 2015
   authors: BB Walker, N Schuurman
-  link: ""
+  link:
     url: ""
     display: "The Professional Geographer, 67 (4), 608-619"
   highlight: 0
@@ -398,7 +398,7 @@
   description: ""
   year: 2014
   authors: BB Walker, N Schuurman, SM Hameed
-  link: ""
+  link:
     url: ""
     display: "BMJ open, 4 (2), e003642"
   highlight: 0
@@ -409,7 +409,7 @@
   description: ""
   year: 2014
   authors: BB Walker, C Taylor-Noonan, A Tabbernor, TB McKinnon, H Bal, ...
-  link: ""
+  link:
     url: ""
     display: "Nat. Hazards, 74 (2), 1209-1222"
   highlight: 0
@@ -420,7 +420,7 @@
   description: ""
   year: 2014
   authors: A Auluck, BB Walker, G Hislop, SA Lear, N Schuurman, M Rosin
-  link: ""
+  link:
     url: ""
     display: "BMC Cancer, 14 (1), 1-11"
   highlight: 0
@@ -431,7 +431,7 @@
   description: ""
   year: 2014
   authors: BB Walker, A Auluck, M Rosin, N Schuurman
-  link: ""
+  link:
     url: ""
     display: "Spatial Knowledge and Information Canada, "
   highlight: 0
@@ -442,7 +442,7 @@
   description: ""
   year: 2013
   authors: BB Walker, C Rinner
-  link: ""
+  link:
     url: ""
     display: "URISA Journal, 25 (2), 15-24"
   highlight: 0
@@ -453,7 +453,7 @@
   description: ""
   year: 2013
   authors: BB Walker
-  link: ""
+  link:
     url: ""
     display: "Department of Geography, Simon Fraser University, "
   highlight: 0
@@ -464,7 +464,7 @@
   description: ""
   year: 2012
   authors: BB Walker, N Schuurman
-  link: ""
+  link:
     url: ""
     display: "Geomatica, 66 (4), 269-278"
   highlight: 0
@@ -475,7 +475,7 @@
   description: ""
   year: 2011
   authors: BB Walker
-  link: ""
+  link:
     url: ""
     display: ", "
   highlight: 0
@@ -486,7 +486,7 @@
   description: ""
   year: 2010
   authors: BB Walker, L Smith, S Munshi, C Rinner
-  link: ""
+  link:
     url: ""
     display: ", "
   highlight: 0
