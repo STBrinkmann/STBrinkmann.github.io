@@ -202,7 +202,7 @@
   authors: H Haacke, F Enssle, I Helbrecht, T Lakes, BB Walker
   link:
     url: ""
-    display: ", "
+    display: ""
   highlight: 0
   news2: ""
 
@@ -290,7 +290,7 @@
   authors: O Amram, BB Walker, N Schuurman, I Pike, N Yanchar
   link:
     url: ""
-    display: "	Int. J. Environ. Res. Public Health, 13 (7), 651"
+    display: "Int. J. Environ. Res. Public Health, 13 (7), 651"
   highlight: 0
   news2: ""
 
@@ -345,7 +345,7 @@
   authors: BB Walker
   link:
     url: ""
-    display: "Department of Geography, Simon Fraser University, "
+    display: "Department of Geography, Simon Fraser University"
   highlight: 0
   news2: ""
 
@@ -367,7 +367,7 @@
   authors: BB Walker, N Schuurman
   link:
     url: ""
-    display: "Department of Geography, Simon Fraser University, "
+    display: "Department of Geography, Simon Fraser University"
   highlight: 0
   news2: ""
 
@@ -477,7 +477,7 @@
   authors: BB Walker
   link:
     url: ""
-    display: ", "
+    display: ""
   highlight: 0
   news2: ""
 
@@ -488,6 +488,6 @@
   authors: BB Walker, L Smith, S Munshi, C Rinner
   link:
     url: ""
-    display: ", "
+    display: ""
   highlight: 0
   news2: ""
