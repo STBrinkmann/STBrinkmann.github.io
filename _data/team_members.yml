@@ -5,12 +5,12 @@
   number_educ: 4
   education1: Professor of Human Geography and Digital Transformation, FAU Erlangen-Nürnberg
   education2: PhD (Spatial Epidmiology), Simon Fraser University, Vancouver, Canada
-  education3: MSc (Spatial Epidmiology), Simon Fraser University, Vancouver, Canada
-  education4: BA (Geographic Analysis), Ryerson University, Toronto, Canada
+  education3: M.Sc. (Spatial Epidmiology), Simon Fraser University, Vancouver, Canada
+  education4: B.A. (Geographic Analysis), Ryerson University, Toronto, Canada
 
 - name: Dominik Kremer
   photo: Kremer.jpg
-  info: Postdoc, started Sep 2020
+  info: Postdoc, started Apr 2020
   email: dominik.kremer@fau.de
   number_educ: 3
   education1: Postdoc at Friedrich-Alexander-Universität Erlangen
@@ -19,7 +19,7 @@
 
 - name: Cléssio Moura de Souza
   photo: Clessio.jpg
-  info: Postdoc, started Sep 2020
+  info: Postdoc, started Aug 2020
   email: clessio.moura.souza@fau.de
   number_educ: 4
   education1: Postdoc at Friedrich-Alexander-Universität Erlangen
@@ -29,7 +29,7 @@
 
 - name: "This could be you!"
   photo: rock.jpg
-  info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info
+  info: "Contact us, if you are interested to join our team!"
   email: blake.walker@fau.de
   number_educ: 0
   education1:

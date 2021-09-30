@@ -15,6 +15,13 @@
   number_educ: 0
   education1:
 
+- name: Martin Fuchs
+  photo: rock.jpg
+  info: B.A. student
+  email: martin.u.fuchs@fau.de
+  number_educ: 0
+  education1:
+  
 - name: Tim Große
   photo: rock.jpg
   info: B.Sc. student
@@ -27,18 +34,13 @@
   info: Master student
   email: naomi.pappenberger@fau.de
   number_educ: 0
-  education1:
+  education1: B.A. (Cultural Geography), FAU Erlangen-Nürnberg 
   
-- name: Martin Fuchs
-  photo: rock.jpg
-  info: B.A. student
-  email: martin.u.fuchs@fau.de
-  number_educ: 0
-  education1:
   
 - name: Anna Stadlmeier
   photo: rock.jpg
   info: Master student
   email: annamierli@yahoo.de
   number_educ: 1
-  education1: B.A. Social Economy
+  education1: M.A. (Cultural Geography), FAU Erlangen-Nürnberg 
+  education2: B.A. (Social Economy), FAU Erlangen-Nürnberg 

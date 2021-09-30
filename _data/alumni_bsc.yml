@@ -1,1 +1,27 @@
-# - name: name, year
+# - name:
+#   year:
+#   thesis:
+
+- name: Daniel Sonnenwald
+  year: 2021
+  thesis: „A GALAXY FAR FAR AWAY… “: Space Syntax and Critical Theory as a Framework to investigate the Spatiality in the Medium of Video Games
+ 
+- name: Lukas Suk
+  year: 2021
+  thesis: Roles of Landscape in Red Dead Redemption 2
+ 
+- name: Bryan Maland
+  year: 2020
+  thesis: Geographische Analyse des Videospiels Red Dead Redemption 2 mithilfe der Prospect Refuge Theory
+ 
+- name: Anton Leutner
+  year: 2021
+  thesis: Spatialities of Violence: Analysis socioeconomic patterns of gun violence in Rio de Janeiro and Recife, Brazil
+ 
+- name: Antonia Bauer
+  year: 2021
+  thesis: Instrumentalization of space through violence
+  
+- name: Julian Hofmann
+  year: 2021
+  thesis: Gemeinwohlökonomie im brasilianischen Kontexten

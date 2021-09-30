@@ -1,1 +1,7 @@
-#- name: name, year
+# - name:
+#   year:
+#   thesis:
+ 
+- name: Anna Stadlmeier
+  year: 2021
+  thesis: Social connectedness in the context of COVID-19
