@@ -60,11 +60,12 @@ permalink: /publications/
 
 {% if publi.year == this_year %}
 
-{{ publi.title }} <br />
 {% if publi.link.url != "" %}
+{{ publi.title }} <br />
 <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 {% endif %}
 {% if publi.link.url == "" %}
+{{ publi.title }} <br />
 <em>{{ publi.authors }} </em><br />{{ publi.link.display }}
 {% endif %}
 
