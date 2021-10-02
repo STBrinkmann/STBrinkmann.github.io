@@ -20,6 +20,6 @@ Sebastian Brinkmann provides a tool for 3D modelling of greenness visibility, as
 </div>
 
 <div align="center">
-<iframe frameborder="0" scrolling="no" seamless="seamless" style="display:block; width:65%; height:60vh;" src="https://datageobrinkmann.be/VGVI_out.html"></iframe>
+<iframe frameborder="0" scrolling="no" seamless="seamless" style="display:block; width:65%; height:70vh;" src="https://datageobrinkmann.be/VGVI_out.html"></iframe>
 <em>Greenspace Visibility Index (VGVI) and Visibility of Trees (VTVI)</em>
 </div>
