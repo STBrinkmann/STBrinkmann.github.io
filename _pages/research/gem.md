@@ -17,10 +17,9 @@ In this project we investigate these complex relationships and effects on human 
 ### GVI: Greenness Visibility Index
 <div style="margin-left: 2em;">
 Sebastian Brinkmann provides a tool for 3D modelling of greenness visibility, as seen through the eyes of a pedestrian. Using Digital Elevation Models and Land Cover datasets, the GVI enables detailed analysis of the associations between urban greenspace and mental health. The GVI R package is available for free, non-commercial use at [github.com/STBrinkmann/GVI](github.com/STBrinkmann/GVI).
+</div>
 
-	<div align="center">
-	<iframe frameborder="0" scrolling="no" seamless="seamless" style="display:block; width:65%; height:60vh;" src="https://datageobrinkmann.be/VGVI_out.html"></iframe>
-	<em>Greenspace Visibility Index (VGVI) and Visibility of Trees (VTVI)</em>
-	</div>
-
+<div align="center">
+<iframe frameborder="0" scrolling="no" seamless="seamless" style="display:block; width:65%; height:60vh;" src="https://datageobrinkmann.be/VGVI_out.html"></iframe>
+<em>Greenspace Visibility Index (VGVI) and Visibility of Trees (VTVI)</em>
 </div>
