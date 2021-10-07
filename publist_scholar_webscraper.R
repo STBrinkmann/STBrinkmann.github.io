@@ -153,7 +153,8 @@ for (i in 1:nrow(publist)) {
     
     # Set URL
     if (j <= 5) {
-      DOI_element <- remDr$client$findElement(using = "xpath", "/html/body/div[2]/div[2]/div[2]/table/tbody/tr[1]/td/div/div")
+      DOI_element <- remDr$client$findElement(using = "xpath",
+                                              paste0("/html/body/div[2]/div[2]/div[2]/table/tbody/tr[", j, "]/td/div/div/a"))
       DOI_element$clickElement()
       Sys.sleep(1)
       URL <- remDr$client$getCurrentUrl()[[1]]
@@ -183,6 +184,7 @@ for (i in 1:nrow(publist)) {
 }
 
 remDr$client$close()
+
 
 cat(publist_yml)
 
