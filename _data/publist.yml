@@ -64,14 +64,14 @@
   news2:
 
 - title: "Cancer resection rates, socioeconomic deprivation, and geographical access to surgery among urban, suburban, and rural populations across Canada"
-  image: ""
-  description: ""
+  image: "cancer_Walker_2020.png"
+  description: "High-risk cancer resection surgeries are increasingly being performed at fewer, more specialised, and higher-volume institutions across Canada, thus resulting in an increase in travel time for patients to obtain treatment. In this study, we examine socioeconomic trends in resection rates and travel time to surgery location for urban, suburban, and rural populations across Canada"
   year: 2020
   authors: BB Walker, N Schuurman, CK Wen, S Shakeel, L Schneider, C Finley
   link:
     url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240444
     display: PloS one, 15 (10), e0240444
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "Multimorbidity and socioeconomic deprivation among older adults: A cross-sectional analysis in five Canadian Cities Using the CLSA"
