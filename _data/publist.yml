@@ -20,14 +20,14 @@
   news2:
 
 - title: "GIS-based multicriteria evaluation for earthquake response: a case study of expert opinion in Vancouver, Canada"
-  image: ""
-  description: ""
+  image: "earthquake_Walker_2020.png"
+  description: "We compare uninformed, informed non-expert, and expert stakeholders’ responses in GIS-based multicriteria evaluation (MCE) modelling for earthquake response planning in Vancouver, Canada"
   year: 2021
   authors: BB Walker, N Schuurman, D Swanlund, JJ Clague
   link:
     url: https://link.springer.com/article/10.1007%2Fs11069-020-04390-1
     display: Nat. Hazards, 105 (2), 2075-2091
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "Key Challenges for Land Use Planning and Its Environmental Assessments in the Abuja City-Region, Nigeria"
