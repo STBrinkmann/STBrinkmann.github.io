@@ -1,6 +1,6 @@
 - name: Blake Walker
   photo: Walker.jpg
-  info: Associate professor, started Sep 2019
+  info: Associate professor, since Sep 2019
   email: blake.walker@fau.de
   number_educ: 4
   education1: Professor of Human Geography and Digital Transformation, FAU Erlangen-Nürnberg
@@ -10,7 +10,7 @@
 
 - name: Dominik Kremer
   photo: Kremer.jpg
-  info: Postdoc, started Apr 2020
+  info: Postdoc, since Apr 2020
   email: dominik.kremer@fau.de
   number_educ: 3
   education1: Postdoc at Friedrich-Alexander-Universität Erlangen
@@ -19,7 +19,7 @@
 
 - name: Cléssio Moura de Souza
   photo: Clessio.jpg
-  info: Postdoc, started Aug 2020
+  info: Postdoc, since Aug 2020
   email: clessio.moura.souza@fau.de
   number_educ: 4
   education1: Postdoc at Friedrich-Alexander-Universität Erlangen
@@ -27,12 +27,4 @@
   education3: Master of Law (LL.M.) – University of Freiburg
   education4: Law degree (Bachelor) at the Pontifical Catholic University of Rio de Janeiro
 
-- name: "This could be you!"
-  photo: rock.jpg
-  info: "Contact us, if you are interested to join our team!"
-  email: blake.walker@fau.de
-  number_educ: 0
-  education1:
-  education2:
-  education3:
-  education4:
+
