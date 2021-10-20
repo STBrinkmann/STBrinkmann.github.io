@@ -81,9 +81,13 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 ## Thesis Students
 <style>
-	th, td {
+	td {
 	  padding-left: 26px;
 	  padding-right: 26px;
+	  vertical-align: top;
+	}
+	th {
+	  font-size: 1em;
 	}
 </style>
 
