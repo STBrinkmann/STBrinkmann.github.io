@@ -5,7 +5,7 @@ excerpt: "CHEST-Lab: Test"
 sitemap: false
 permalink: /test/
 ---
-Lorem ipsum
+Lorem ipsum test
 
 <html lang="en">
   <head>
