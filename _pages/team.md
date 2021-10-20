@@ -80,9 +80,16 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 ## Thesis Students
+<style>
+	th, td {
+	  padding-left: 26px;
+	  padding-right: 26px;
+	}
+</style>
+
 <table style="width:100%; text-align: left;">
   <tr>
-    <th>Master students</th>
+    <th style="width:50%">Master students</th>
     <th>Bachelor Students</th>
   </tr>
   <tr>
