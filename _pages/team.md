@@ -80,9 +80,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 ## Thesis Students
-<div class="row", style="width: 100%;">
+<div class="row" style="width: 100%;">
 
-<div class="col-sm-4", style="text-align: left;">
+<div class="col-sm-4" style="text-align: left;">
 <h4>Master students</h4>
 {% for member in site.data.alumni_msc %}
 {{ member.name }}, {{ member.year }}<br>
@@ -90,7 +90,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endfor %}
 </div>
 
-<div class="col-sm-4", style="text-align: left;">
+<div class="col-sm-4" style="text-align: left;">
 <h4>Bachelor Students</h4>
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}, {{ member.year }}<br>
