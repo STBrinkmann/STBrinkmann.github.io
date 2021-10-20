@@ -21,7 +21,7 @@ Lorem ipsum
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
     ></script>
-    <script type="text/javascript" src="js/jquery.connections.js"></script>
+    <script type="text/javascript" src="js/jqueryconnections.js"></script>
     <style>
       .draggable {
         background: #deb;
