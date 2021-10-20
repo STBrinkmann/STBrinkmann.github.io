@@ -22,7 +22,7 @@ Lorem ipsum
       src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
     ></script>
     <script type="text/javascript"
-	src="https://raw.githubusercontent.com/musclesoft/jquery-connections/gh-pages/jquery.connections.js"
+	src="js/jquery.connections.js"
 	></script>
     <style>
       .draggable {
