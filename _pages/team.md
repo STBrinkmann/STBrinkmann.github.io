@@ -77,7 +77,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-
+<p> &nbsp; </p>
 
 ## Thesis Students
 <style>
