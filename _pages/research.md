@@ -11,7 +11,7 @@ permalink: /research/
 The rapid nascence of data availability, powerful algorithms, and quantitative methodology are necessitating novel conceptualisations of „digital“, serving both as an applied means of constructing information and as an arena for critical inquiry into emergent modes of representation. With a broad focus on the interplays between human health and social/built/natural environments, the Digital Health Geographies Research Group explores the confluence of applied machine learning and the analysis of situated, community-scale sociocultural practice through empirical study.
 
 Here are some themes and techniques that we currently work on:
-Test
+
 
 <head>
   <script type="text/javascript"
@@ -29,7 +29,7 @@ Test
   </style>
 
   <script type="text/JavaScript">
-	$('#gallery__item gallery__item--2, #gallery__item gallery__item--3').connections();
+	$('#gallery__item .gallery__item--2, #gallery__item .gallery__item--3').connections();
   </script>
 
 </head>
@@ -37,7 +37,7 @@ Test
 <body>
   <div class="container" style="width: 100%; margin: 1em auto;" markdown="0">
     <div class="gallery" markdown="0">
-      <figure class="gallery__item .gallery__item--1">
+      <figure class="gallery__item gallery__item--1">
   	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/COVID_19.svg"
 			 alt="Gallery image 1" class="gallery__img">
