@@ -136,3 +136,14 @@ firstp {
   grid-row: 5 / span 2;
 }
 
+connection {
+  border: 30px solid #b51c29;
+  border-radius: 50px;
+}
+
+button.about {
+  position: absolute;
+  transition: .5s ease;
+  top: 50%;
+  left: 50%;
+}
