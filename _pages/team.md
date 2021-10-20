@@ -80,22 +80,23 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 ## Thesis Students
-<div class="row" style="width: 100%;">
-
-<div class="column" style="text-align: left; padding-left: 26px; padding-right: 26px;">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}, {{ member.year }}<br>
-<i>{{ member.thesis }}</i>
-{% endfor %}
-</div>
-
-<div class="column" style="text-align: left; padding-left: 26px; padding-right: 26px;">
-<h4>Bachelor Students</h4>
-{% for member in site.data.alumni_bsc %}
-{{ member.name }}, {{ member.year }}<br>
-<i>{{ member.thesis }}</i>
-{% endfor %}
-</div>
-
-</div>
+<table style="width:100%; text-align: left;">
+  <tr>
+    <th>Master students</th>
+    <th>Bachelor Students</th>
+  </tr>
+  <tr>
+	<td>
+		{% for member in site.data.alumni_msc %}
+		{{ member.name }}, {{ member.year }}<br>
+		<i>{{ member.thesis }}</i><br><br>
+		{% endfor %}
+	</td>
+	<td>
+		{% for member in site.data.alumni_bsc %}
+		{{ member.name }}, {{ member.year }}<br>
+		<i>{{ member.thesis }}</i><br><br>
+		{% endfor %}
+	</td>
+  </tr>
+</table>
