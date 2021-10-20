@@ -92,6 +92,14 @@ publist <- publist %>%
 # Sort by year and title
 publist <- publist %>% arrange(desc(year), title)
 
+# Correct BB Walker
+publist$author[publist$pubid %in% c("jFemdcug13IC", "7wO8s98CvbsC")] <- c(
+  "P Lisa, L Christian, B Karen, BB Walker",
+  "S Michener, L Bell, BB Walker, N Schuurman"
+)
+
+# Add URL
+publist$URL <- as.character(NA)
 
 # Use Selenium to webscrpe the URL from crossref
 library(RSelenium)
@@ -116,55 +124,59 @@ for (i in 1:nrow(publist)) {
   
   
   # URL
-  if ((nchar(publist[i,]$journal)>0) && (nchar(publist[i,]$number)>0)) {
-    remDr$client$navigate(url)
-    ElemSearch <- remDr$client$findElement("id", "search-input")
-    
-    # Search current title
-    ElemSearch$sendKeysToElement(list(publist$title[i], key = "enter"))
-    while (unlist(remDr$client$getCurrentUrl()) == url) {
-      Sys.sleep(0.5)
-    }
-    Sys.sleep(1)
-    
-    # Check first 5 elements
-    j <- 1
-    while (j <= 5) {
-      ElemTitle <- remDr$client$findElement(using = "xpath",
-                                            paste0("/html/body/div[2]/div[2]/div[2]/table/tbody/tr[", j, "]/td/p[1]"))
-      test_title <- ElemTitle$getElementText()[[1]]
-      page_title <- publist$title[i]
+  if (!is.na(publist[i,]$URL)) {
+    URL <- publist[i,]$URL
+  } else {
+    if ((nchar(publist[i,]$journal)>0) && (nchar(publist[i,]$number)>0)) {
+      remDr$client$navigate(url)
+      ElemSearch <- remDr$client$findElement("id", "search-input")
       
-      page_title <- gsub("[^0-9A-Za-z///' ]","" , page_title ,ignore.case = TRUE)
-      page_title <- gsub("[[:punct:]]","" , page_title ,ignore.case = TRUE)
-      page_title <- gsub("[[:space:]]","" , page_title ,ignore.case = TRUE)
-      
-      test_title <- gsub("[^0-9A-Za-z///' ]","" , test_title ,ignore.case = TRUE)
-      test_title <- gsub("[[:punct:]]","" , test_title ,ignore.case = TRUE)
-      test_title <- gsub("[[:space:]]","" , test_title ,ignore.case = TRUE)
-      
-      if (tolower(page_title) == tolower(test_title)) {
-        break
-      } else {
-        j = j + 1
+      # Search current title
+      ElemSearch$sendKeysToElement(list(publist$title[i], key = "enter"))
+      while (unlist(remDr$client$getCurrentUrl()) == url) {
+        Sys.sleep(0.5)
       }
-    }
-    
-    
-    # Set URL
-    if (j <= 5) {
-      DOI_element <- remDr$client$findElement(using = "xpath",
-                                              paste0("/html/body/div[2]/div[2]/div[2]/table/tbody/tr[", j, "]/td/div/div/a"))
-      DOI_element$clickElement()
       Sys.sleep(1)
-      URL <- remDr$client$getCurrentUrl()[[1]]
+      
+      # Check first 5 elements
+      j <- 1
+      while (j <= 5) {
+        ElemTitle <- remDr$client$findElement(using = "xpath",
+                                              paste0("/html/body/div[2]/div[2]/div[2]/table/tbody/tr[", j, "]/td/p[1]"))
+        test_title <- ElemTitle$getElementText()[[1]]
+        page_title <- publist$title[i]
+        
+        page_title <- gsub("[^0-9A-Za-z///' ]","" , page_title ,ignore.case = TRUE)
+        page_title <- gsub("[[:punct:]]","" , page_title ,ignore.case = TRUE)
+        page_title <- gsub("[[:space:]]","" , page_title ,ignore.case = TRUE)
+        
+        test_title <- gsub("[^0-9A-Za-z///' ]","" , test_title ,ignore.case = TRUE)
+        test_title <- gsub("[[:punct:]]","" , test_title ,ignore.case = TRUE)
+        test_title <- gsub("[[:space:]]","" , test_title ,ignore.case = TRUE)
+        
+        if (tolower(page_title) == tolower(test_title)) {
+          break
+        } else {
+          j = j + 1
+        }
+      }
+      
+      
+      # Set URL
+      if (j <= 5) {
+        DOI_element <- remDr$client$findElement(using = "xpath",
+                                                paste0("/html/body/div[2]/div[2]/div[2]/table/tbody/tr[", j, "]/td/div/div/a"))
+        DOI_element$clickElement()
+        Sys.sleep(1)
+        URL <- remDr$client$getCurrentUrl()[[1]]
+      } else {
+        URL <- "\"\""
+        cat(paste(i, "- TITLE FAIL\n"))
+      }
+      
     } else {
       URL <- "\"\""
-      cat(paste(i, "- TITLE FAIL\n"))
     }
-    
-  } else {
-    URL <- "\"\""
   }
   
   # YML formal for publist.yml
