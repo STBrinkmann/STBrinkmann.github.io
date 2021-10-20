@@ -5,7 +5,7 @@ excerpt: "CHEST-Lab: Test"
 sitemap: false
 permalink: /test/
 ---
-Lorem ipsum test2
+Lorem ipsum
 
 <style>
   th {
@@ -21,7 +21,7 @@ Lorem ipsum test2
 </style>
 
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/jquery.connections.js"></script>
+<script src="../js/jquery.connections.js"></script>
 <script>
   $(document).ready(function() {
     $("th").connections();
