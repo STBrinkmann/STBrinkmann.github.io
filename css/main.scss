@@ -97,7 +97,7 @@ firstp {
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 2vw);
+  grid-template-rows: repeat(8, 10vw);
 }
 
 .gallery__img {
