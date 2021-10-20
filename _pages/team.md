@@ -82,12 +82,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 ## Thesis Students
 <style>
 	td {
-	  padding-left: 26px;
-	  padding-right: 26px;
 	  vertical-align: top;
 	}
 	th {
-	  font-size: 130%;
+	  font-size: 120%;
 	}
 </style>
 
@@ -97,7 +95,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
     <th>Bachelor Students<br></th>
   </tr>
   <tr>
-	<td>
+	<td style="padding-right: 26px;">
 		{% for member in site.data.alumni_msc %}
 		{{ member.name }}, {{ member.year }}<br>
 		<i>{{ member.thesis }}</i><br><br>
