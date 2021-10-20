@@ -103,8 +103,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 	</td>
 	<td>
 		{% for member in site.data.alumni_bsc %}
-		{{ member.name }}, {{ member.year }}<br>
-		<i>{{ member.thesis }}</i><br><br>
+		<br>{{ member.name }}, {{ member.year }}<br>
+		<i>{{ member.thesis }}</i><br>
 		{% endfor %}
 	</td>
   </tr>
