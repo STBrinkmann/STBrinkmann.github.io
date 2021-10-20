@@ -91,14 +91,14 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <table style="width:100%; text-align: left;">
   <tr>
-    <th style="width:50%">Master students<br></th>
-    <th>Bachelor Students<br></th>
+    <th style="width:50%">Master students</th>
+    <th>Bachelor Students</th>
   </tr>
   <tr>
 	<td style="padding-right: 26px;">
 		{% for member in site.data.alumni_msc %}
-		{{ member.name }}, {{ member.year }}<br>
-		<i>{{ member.thesis }}</i><br><br>
+		<br>{{ member.name }}, {{ member.year }}<br>
+		<i>{{ member.thesis }}</i><br>
 		{% endfor %}
 	</td>
 	<td>
