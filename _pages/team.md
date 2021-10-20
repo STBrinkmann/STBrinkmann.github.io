@@ -87,14 +87,14 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 	  vertical-align: top;
 	}
 	th {
-	  font-size: 1em;
+	  font-size: 130%;
 	}
 </style>
 
 <table style="width:100%; text-align: left;">
   <tr>
-    <th style="width:50%">Master students</th>
-    <th>Bachelor Students</th>
+    <th style="width:50%">Master students<br></th>
+    <th>Bachelor Students<br></th>
   </tr>
   <tr>
 	<td>
