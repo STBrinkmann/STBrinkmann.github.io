@@ -82,7 +82,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 ## Thesis Students
 <div class="row">
 
-<div class="column", style="padding-left: 26px;	padding-right: 26px;">
+<div class="column">
 <h4>Master students</h4>
 {% for member in site.data.alumni_msc %}
 {{ member.name }}, {{ member.year }}<br>
