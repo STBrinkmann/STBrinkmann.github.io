@@ -22,8 +22,8 @@ Here are some themes and techniques that we currently work on:
 }
 </style>
 
-<div class="container" style="width: 90%; margin: 2em auto;">
-  <div class="gallery">
+<div class="container" style="width: 90%; margin: 2em auto;" markdown="0">
+  <div class="gallery" markdown="0">
     <figure class="gallery__item gallery__item--1">
 	  <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
       <img src="{{ site.url }}{{ site.baseurl }}/images/projects/COVID_19.svg"
