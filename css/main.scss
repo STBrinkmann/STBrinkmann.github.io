@@ -96,9 +96,8 @@ firstp {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(7, 11.25%);
-  grid-template-rows: repeat(7, 11.25%);
-  grid-gap: 1.5em; 
+  grid-template-columns: repeat(8, 10%);
+  grid-template-rows: repeat(8, 10%);
 }
 
 .gallery__img {
