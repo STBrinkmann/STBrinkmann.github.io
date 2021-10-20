@@ -96,8 +96,8 @@ firstp {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(8, 10%);
-  grid-template-rows: repeat(8, 10%);
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
 }
 
 .gallery__img {
