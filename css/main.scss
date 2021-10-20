@@ -96,14 +96,14 @@ firstp {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(16, 5%);
-  grid-template-rows: repeat(16, 5%);
+  grid-template-columns: repeat(7, 11.25%);
+  grid-template-rows: repeat(7, 11.25%);
   grid-gap: 1.5em; 
 }
 
 .gallery__img {
-  width: 120%;
-  height: 120%;
+  width: 100%;
+  height: 100%;
 }
 
 .gallery__item--1 {
