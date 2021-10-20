@@ -13,11 +13,19 @@ permalink: /publications/
 
 (For a full list of publications see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.ca/citations?hl=en&user=X-eZF2wAAAAJ&view_op=list_works&sortby=pubdate))
 
-{% assign number_printed = 0 %}
+{% assign n = 0 %}
 {% for publi in site.data.publist %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight == 1 %}
+{% assign n = n | plus: 1 %}
+{% endif %}
+{% endfor %}
+
+{% assign number_printed = 0 %}
+{% for i in (1..n) %}
+
+{% for publi in site.data.publist %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if publi.position == i %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -30,8 +38,7 @@ permalink: /publications/
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}&nbsp;&#040;{{ publi.year }}&#041;</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
+  <p class="text-danger"><strong> {{ publi.news2 }}</strong></p>
  </div>
 </div>
 
@@ -49,8 +56,9 @@ permalink: /publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+{% endfor %}
 
+<p> &nbsp; </p>
 
 ## Full List of publications
 {% for this_year in (2018..2021) reversed %}
@@ -73,6 +81,7 @@ permalink: /publications/
 {% endfor %}
 
 {% endfor %}
+
 #### Before 2018
 {% for publi in site.data.publist %}
 
