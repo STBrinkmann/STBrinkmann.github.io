@@ -5,9 +5,8 @@ excerpt: "CHEST-Lab: Test"
 sitemap: false
 permalink: /test/
 ---
-Lorem ipsum test
+Lorem ipsum test2
 
-<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>jQuery Connections</title>
@@ -146,4 +145,3 @@ Lorem ipsum test
       <p>Drag me around</p>
     </div>
   </body>
-</html>
