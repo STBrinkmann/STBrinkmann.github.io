@@ -48,7 +48,7 @@ Here are some themes and techniques that we currently work on:
   
   <script type="text/JavaScript">
     $(document).ready(function() {
-			$().connections({ from: '#img1', to: '#img4' });
+	  $().connections({ from: '#img1', to: '#img4' });
       $().connections({ from: '#img3', to: '#img4' });
       $().connections({ from: '#img3', to: '#img1' });
       $().connections({ from: '#img1', to: '#img2' });
