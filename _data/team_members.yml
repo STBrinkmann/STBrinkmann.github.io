@@ -28,7 +28,7 @@
   education4: Law degree (Bachelor) at the Pontifical Catholic University of Rio de Janeiro
 
 - name: Sebastian Brinkmann
-  photo: "bio-photo"
+  photo: "bio-photo.jpg"
   info: B.Sc. student, since Mar 2020
   email: sebastian.brinkmann@fau.de
   number_educ: 0
@@ -38,7 +38,7 @@
   education4:
 
 - name: Martin Fuchs
-  photo: "bio-photo"
+  photo: "bio-photo.jpg"
   info: B.A. student, since Mar 2020
   email: martin.u.fuchs@fau.de
   number_educ: 0
@@ -48,7 +48,7 @@
   education4:
   
 - name: Naomi Pappenberger
-  photo: "bio-photo"
+  photo: "bio-photo.jpg"
   info: Master student, since Sep 2021
   email: naomi.pappenberger@fau.de
   number_educ: 1
@@ -59,7 +59,7 @@
   
   
 - name: Anna Stadlmeier
-  photo: "bio-photo"
+  photo: "bio-photo.jpg"
   info: Master student, since Sep 2021
   email: annamierli@yahoo.de
   number_educ: 2
