@@ -17,7 +17,7 @@ Here are some themes and techniques that we currently work on:
   <script type="text/javascript"
 		  src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript" 
-		  src="https://cdn.jsdelivr.net/gh/musclesoft/jquery-connections@1.0.1/jquery.connections.js"></script>
+		  src="../js/jquery.connections.js"></script>
 
   <style>
   *,
@@ -56,6 +56,32 @@ Here are some themes and techniques that we currently work on:
       $().connections({ from: '#img6', to: '#img5' });
       $().connections({ from: '#img6', to: '#img2' });
       $().connections({ from: '#img6', to: '#img3' });
+    });
+  </script>
+  
+  <script type="text/JavaScript">
+    $(document).ready(function() {
+    	var globalResizeTimer = null;
+
+      $(window).resize(function() {
+          if(globalResizeTimer != null) window.clearTimeout(globalResizeTimer);
+          globalResizeTimer = window.setTimeout(function() {
+              $('#img1').connections('remove');
+              $('#img2').connections('remove');
+              $('#img3').connections('remove');
+              $('#img4').connections('remove');
+              $('#img5').connections('remove');
+              $('#img6').connections('remove');
+              $().connections({ from: '#img1', to: '#img4' });
+              $().connections({ from: '#img3', to: '#img4' });
+              $().connections({ from: '#img3', to: '#img1' });
+              $().connections({ from: '#img1', to: '#img2' });
+              $().connections({ from: '#img5', to: '#img2' });
+              $().connections({ from: '#img6', to: '#img5' });
+              $().connections({ from: '#img6', to: '#img2' });
+              $().connections({ from: '#img6', to: '#img3' });
+          }, 200);
+      });
     });
   </script>
 </head>
