@@ -38,12 +38,6 @@ Here are some themes and techniques that we currently work on:
     font-size: 62.5%; 
   }
 
-  body {
-    font-family: "Nunito", sans-serif;
-    color: #333;
-    font-weight: 300;
-    line-height: 1.6; 
-  }
   </style>
   
   <script type="text/JavaScript">
