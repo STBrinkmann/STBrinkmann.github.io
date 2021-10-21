@@ -96,7 +96,7 @@ firstp {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(5, 10vw);
   grid-gap: 1.5rem;
 }
@@ -120,23 +120,23 @@ firstp {
 }
 
 .gallery__item--3 {
-  grid-column: 2 / span 1;
-  grid-row: 5 / span 1;
-}
-
-.gallery__item--4 {
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
 }
 
+.gallery__item--4 {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+
 .gallery__item--5 {
-  grid-column: 8 / span 1;
-  grid-row: 6 / span 1;
+  grid-column: 7 / span 1;
+  grid-row: 5 / span 1;
 }
 
 .gallery__item--6 {
   grid-column: 5 / span 1;
-  grid-row: 5 / span 1;
+  grid-row: 4 / span 1;
 }
 
 connection {

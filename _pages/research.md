@@ -48,14 +48,14 @@ Here are some themes and techniques that we currently work on:
   
   <script type="text/JavaScript">
     $(document).ready(function() {
-			$().connections({ from: '#img4', to: '#img1' });
-      $().connections({ from: '#img4', to: '#img3' });
-      $().connections({ from: '#img1', to: '#img3' });
-      $().connections({ from: '#img2', to: '#img1' });
-      $().connections({ from: '#img2', to: '#img5' });
+			$().connections({ from: '#img1', to: '#img4' });
+      $().connections({ from: '#img3', to: '#img4' });
+      $().connections({ from: '#img3', to: '#img1' });
+      $().connections({ from: '#img1', to: '#img2' });
+      $().connections({ from: '#img5', to: '#img2' });
       $().connections({ from: '#img6', to: '#img5' });
       $().connections({ from: '#img6', to: '#img2' });
-      $().connections({ from: '#img6', to: '#img4' });
+      $().connections({ from: '#img6', to: '#img3' });
     });
   </script>
 </head>
