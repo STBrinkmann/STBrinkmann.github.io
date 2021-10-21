@@ -26,7 +26,27 @@
   education2: Ph.D. in Law (Criminology) – University of Freiburg
   education3: Master of Law (LL.M.) – University of Freiburg
   education4: Law degree (Bachelor) at the Pontifical Catholic University of Rio de Janeiro
-
+  
+- name: Anna Stadlmeier
+  photo: "bio-photo.jpg"
+  info: Master student, since Sep 2021
+  email: anna.stadlmeier@fau.de
+  number_educ: 2
+  education1: M.A. (Cultural Geography), FAU Erlangen-Nürnberg
+  education2: B.A. (Social Economy), FAU Erlangen-Nürnberg
+  education3:
+  education4:
+    
+- name: Naomi Pappenberger
+  photo: "bio-photo.jpg"
+  info: Master student, since Sep 2021
+  email: naomi.pappenberger@fau.de
+  number_educ: 1
+  education1: B.A. (Cultural Geography), FAU Erlangen-Nürnberg
+  education2:
+  education3:
+  education4:
+  
 - name: Sebastian Brinkmann
   photo: "bio-photo.jpg"
   info: B.Sc. student, since Mar 2020
@@ -46,24 +66,5 @@
   education2:
   education3:
   education4:
-  
-- name: Naomi Pappenberger
-  photo: "bio-photo.jpg"
-  info: Master student, since Sep 2021
-  email: naomi.pappenberger@fau.de
-  number_educ: 1
-  education1: B.A. (Cultural Geography), FAU Erlangen-Nürnberg
-  education2:
-  education3:
-  education4:
-  
-  
-- name: Anna Stadlmeier
-  photo: "bio-photo.jpg"
-  info: Master student, since Sep 2021
-  email: annamierli@yahoo.de
-  number_educ: 2
-  education1: M.A. (Cultural Geography), FAU Erlangen-Nürnberg
-  education2: B.A. (Social Economy), FAU Erlangen-Nürnberg
-  education3:
-  education4:
+
+
