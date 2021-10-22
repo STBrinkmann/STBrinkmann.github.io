@@ -10,7 +10,11 @@ permalink: /publications/
 	var isMobile = window.innerWidth <= 800
 	
     window.onload = function(){
-        document.getElementById("rowElement").className = "row";
+		if(isMobile){
+        document.getElementById("rowElement").className = "row";		
+		}else{
+        document.getElementById("rowElement").className = "row row-flex row-flex-wrap";		
+		}
     }
 </script>
 # Publications
