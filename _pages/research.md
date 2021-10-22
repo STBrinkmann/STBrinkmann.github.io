@@ -84,16 +84,16 @@ Here are some themes and techniques that we currently work on:
 <body style="background-color:yellow;">
   <div class="container" style="width: 95%; margin: 1em auto;" markdown="0">
     <div class="gallery" markdown="0">
-      <figure class="gallery__item gallery__item--1">
+      <figure class="gallery__item gallery__item--1" id="img1">
   	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/COVID_19.svg"
-			 alt="Gallery image 1" class="gallery__img" id="img1">
+			 alt="Gallery image 1" class="gallery__img">
 	    </a>
       </figure>
-      <figure class="gallery__item gallery__item--2">
+      <figure class="gallery__item gallery__item--2" id="img2">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19narratives.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/COVID_19_Narratives.svg"
-			 alt="Gallery image 2" class="gallery__img" id="img2">
+			 alt="Gallery image 2" class="gallery__img">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--3">
