@@ -6,7 +6,9 @@ sitemap: false
 permalink: /publications/
 ---
 
-
+<script type="text/JavaScript">
+	var isMobile = window.innerWidth <= 80000
+</script>
 # Publications
 
 ## Group highlights
@@ -28,7 +30,11 @@ permalink: /publications/
 {% if publi.position == i %}
 
 {% if even_odd == 0 %}
-<div class="row row-flex row-flex-wrap">
+{% if isMobile %}
+	<div class="row row-flex row-flex-wrap">
+{% else %}
+	<div class="row">
+{% endif %}
 {% endif %}
 
 <div class="col-sm-6 clearfix">

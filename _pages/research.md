@@ -81,7 +81,7 @@ Here are some themes and techniques that we currently work on:
   </script>
 </head>
 
-<body style="background-color:yellow;">
+<body>
   <div class="container" style="width: 95%; margin: 1em auto;" markdown="0">
     <div class="gallery" markdown="0">
       <figure class="gallery__item gallery__item--1" id="img1">
