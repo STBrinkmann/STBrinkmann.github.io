@@ -38,7 +38,7 @@ permalink: /publications/
 {% if publi.position == i %}
 
 {% if even_odd == 0 %}
-<div id="rowElement">
+<div class="row">
 {% endif %}
 
 <div class="col-sm-6 clearfix">
