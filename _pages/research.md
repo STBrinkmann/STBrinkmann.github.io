@@ -85,42 +85,36 @@ Here are some themes and techniques that we currently work on:
   <div class="container" style="width: 95%; margin: 1em auto;" markdown="0">
     <div class="gallery" markdown="0">
       <figure class="gallery__item gallery__item--1">
-		<div id="img1" style="display: none; width: 50%; height:50%">
   	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/COVID_19.svg"
 			 alt="Gallery image 1" class="gallery__img">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--2">
-		<div id="img2" style="display: none; width: 50%; height:50%">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19narratives.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/COVID_19_Narratives.svg"
 			 alt="Gallery image 2" class="gallery__img">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--3">
-		<div id="img3" style="display: none; width: 50%; height:50%">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/gem.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/GEM.svg"
              alt="Gallery image 3" class="gallery__img">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--4">
-		<div id="img4" style="display: none; width: 50%; height:50%">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/purespace.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/PURE_SPACE.svg"
              alt="Gallery image 4" class="gallery__img">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--5">
-		<div id="img5" style="display: none; width: 50%; height:50%">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/stage.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/STAGE.svg"
              alt="Gallery image 5" class="gallery__img">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--6">
-		<div id="img6" style="display: none; width: 50%; height:50%">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/vibrance.html">
         <img src="{{ site.url }}{{ site.baseurl }}/images/projects/VIBRANCE.svg"
              alt="Gallery image 6" class="gallery__img">
