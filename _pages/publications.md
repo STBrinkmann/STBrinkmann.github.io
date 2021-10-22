@@ -6,19 +6,6 @@ sitemap: false
 permalink: /publications/
 ---
 
-<script type="text/JavaScript">
-	var isMobile = window.innerWidth <= 800
-	
-    window.onload = function(){
-		if(!isMobile){
-			document.querySelectorAll('div').forEach(function(item) {
-				if(item.className == "row"){
-				item.className = "row row-flex row-flex-wrap";
-			  }  
-			})	
-		}
-    }
-</script>
 # Publications
 
 ## Group highlights
@@ -71,7 +58,6 @@ permalink: /publications/
 {% endif %}
 
 <p></p>
-<br>
 
 ## Full List of publications
 {% for this_year in (2018..2021) reversed %}
