@@ -11,15 +11,25 @@ permalink: /publications/
 	
     window.onload = function(){
 		if(!isMobile){
-			document.querySelectorAll('li').forEach(function(item) {
+			document.querySelectorAll('div').forEach(function(item) {
 				if(item.className == "row"){
 				item.className = "row row-flex row-flex-wrap";
 			  }  
 			})	
 		}
     }
+	
+	window.onresize = function(event) {
+		if(!isMobile){
+			document.querySelectorAll('div').forEach(function(item) {
+				if(item.className == "row"){
+				item.className = "row row-flex row-flex-wrap";
+			  }  
+			})	
+		}
+	};
 </script>
-# Publications
+# Publications 2
 
 ## Group highlights
 
