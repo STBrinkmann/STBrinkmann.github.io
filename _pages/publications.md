@@ -7,7 +7,7 @@ permalink: /publications/
 ---
 
 <script type="text/JavaScript">
-	var isMobile = window.innerWidth <= 80000
+	var isMobile = window.innerWidth <= 8
 </script>
 # Publications
 
