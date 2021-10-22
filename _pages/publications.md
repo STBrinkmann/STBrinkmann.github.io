@@ -17,7 +17,7 @@ permalink: /publications/
 		}
     }
 </script>
-# Publications
+# Publications 2
 
 ## Group highlights
 
@@ -68,7 +68,8 @@ permalink: /publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p></p>
+<br>
 
 ## Full List of publications
 {% for this_year in (2018..2021) reversed %}
