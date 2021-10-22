@@ -31,9 +31,9 @@ permalink: /publications/
 
 {% if even_odd == 0 %}
 {% if isMobile %}
-	<div class="row row-flex row-flex-wrap">
+<div class="row row-flex row-flex-wrap">
 {% else %}
-	<div class="row">
+<div class="row">
 {% endif %}
 {% endif %}
 
