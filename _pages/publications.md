@@ -18,18 +18,8 @@ permalink: /publications/
 			})	
 		}
     }
-	
-	window.onresize = function(event) {
-		if(!isMobile){
-			document.querySelectorAll('div').forEach(function(item) {
-				if(item.className == "row"){
-				item.className = "row row-flex row-flex-wrap";
-			  }  
-			})	
-		}
-	};
 </script>
-# Publications 2
+# Publications
 
 ## Group highlights
 
