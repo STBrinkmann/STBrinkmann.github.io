@@ -11,11 +11,11 @@ permalink: /publications/
 	
     window.onload = function(){
 		if(isMobile){
-        document.getElementsByClassName("row").className = " row-flex row-flex-wrap";		
+			document.getElementsByClassName("row").className = "row-flex row-flex-wrap";		
 		}
     }
 </script>
-# Publications
+# Publications 2
 
 ## Group highlights
 
