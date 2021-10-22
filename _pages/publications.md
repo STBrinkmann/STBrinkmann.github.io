@@ -7,7 +7,7 @@ permalink: /publications/
 ---
 
 <script type="text/JavaScript">
-	var isMobile = window.innerWidth <= 8
+	var isMobile = window.innerWidth <= 800
 </script>
 # Publications
 
@@ -30,7 +30,7 @@ permalink: /publications/
 {% if publi.position == i %}
 
 {% if even_odd == 0 %}
-{% if isMobile %}
+{% if {{ isMobile }} %}
 <div class="row row-flex row-flex-wrap">
 {% else %}
 <div class="row">
