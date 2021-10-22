@@ -17,7 +17,7 @@ permalink: /publications/
 		}
     }
 </script>
-# Publications
+# Publications test
 
 ## Group highlights
 
@@ -38,7 +38,7 @@ permalink: /publications/
 {% if publi.position == i %}
 
 {% if even_odd == 0 %}
-<div class="row">
+<div class="row row-flex row-flex-wrap">
 {% endif %}
 
 <div class="col-sm-6 clearfix">
