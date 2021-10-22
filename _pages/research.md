@@ -10,8 +10,8 @@ permalink: /research/
 
 The rapid nascence of data availability, powerful algorithms, and quantitative methodology are necessitating novel conceptualisations of „digital“, serving both as an applied means of constructing information and as an arena for critical inquiry into emergent modes of representation. With a broad focus on the interplays between human health and social/built/natural environments, the Digital Health Geographies Research Group explores the confluence of applied machine learning and the analysis of situated, community-scale sociocultural practice through empirical study.
 
-Here are some themes and techniques that we currently work on:
-<p style="font-size:80%; line-height: 1;">(Click an image for more information)</p>
+<p style="line-height: 1;">Here are some themes and techniques that we currently work on:</p>
+<p style="font-size:80%;">(Click an image for more information)</p>
 
 
 <head>
