@@ -82,7 +82,7 @@ Here are some themes and techniques that we currently work on:
 </head>
 
 <body style="background-color:yellow;">
-  <div class="container" style="width: 95%; padding-bottom: 10%; margin: 1em auto;" markdown="0">
+  <div class="container" style="width: 95%; height:70%; margin: 1em auto;" markdown="0">
     <div class="gallery" markdown="0">
       <figure class="gallery__item gallery__item--1" id="img1">
   	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
