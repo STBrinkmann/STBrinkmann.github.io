@@ -8,6 +8,10 @@ permalink: /publications/
 
 <script type="text/JavaScript">
 	var isMobile = window.innerWidth <= 800
+	
+    window.onload = function(){
+        document.getElementById("rowElement").className = "row";
+    }
 </script>
 # Publications
 
@@ -30,11 +34,7 @@ permalink: /publications/
 {% if publi.position == i %}
 
 {% if even_odd == 0 %}
-{% if {{ isMobile }} %}
-<div class="row row-flex row-flex-wrap">
-{% else %}
-<div class="row">
-{% endif %}
+<div id="rowElement">
 {% endif %}
 
 <div class="col-sm-6 clearfix">
