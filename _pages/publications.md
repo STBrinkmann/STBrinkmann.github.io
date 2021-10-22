@@ -11,13 +11,11 @@ permalink: /publications/
 	
     window.onload = function(){
 		if(isMobile){
-        document.getElementById("rowElement").className = "row";		
-		}else{
-        document.getElementById("rowElement").className = "row row-flex row-flex-wrap";		
+        document.getElementsByClassName("row").className = " row-flex row-flex-wrap";		
 		}
     }
 </script>
-# Publications test
+# Publications
 
 ## Group highlights
 
@@ -38,7 +36,7 @@ permalink: /publications/
 {% if publi.position == i %}
 
 {% if even_odd == 0 %}
-<div class="row row-flex row-flex-wrap">
+<div class="row">
 {% endif %}
 
 <div class="col-sm-6 clearfix">
