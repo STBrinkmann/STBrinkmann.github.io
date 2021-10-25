@@ -43,8 +43,8 @@ Here are some themes and techniques that we currently work on:
   
   <script type="text/JavaScript">
     $(document).ready(function() {
-	  var containerWidth = $('imgContainer').style.width;
-	  $('imgContainer').style.height = containerWidth/2;
+	  var containerWidth = $(document).getElementById('imgContainer').style.width;
+	  $(document).getElementById('imgContainer').style.height = containerWidth/2;
 	  
 	  $().connections({ from: '#img1', to: '#img4' });
       $().connections({ from: '#img3', to: '#img4' });
@@ -64,8 +64,8 @@ Here are some themes and techniques that we currently work on:
       $(window).resize(function() {
           if(globalResizeTimer != null) window.clearTimeout(globalResizeTimer);
           globalResizeTimer = window.setTimeout(function() {
-			  var containerWidth = $('imgContainer').style.width;
-			  $('imgContainer').style.height = containerWidth/2;
+			  var containerWidth = $(document).getElementById('imgContainer').style.width;
+			  $(document).getElementById('imgContainer').style.height = containerWidth/2;
 			  
               $('#img1').connections('remove');
               $('#img2').connections('remove');
