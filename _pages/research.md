@@ -43,10 +43,15 @@ Here are some themes and techniques that we currently work on:
   
   <script type="text/JavaScript">
     $(document).ready(function() {
-	  var containerWidth = $(document).getElementById('imgContainer').style.width;
-	  $(document).getElementById('imgContainer').style.height = containerWidth/2;
-	  
-	  $().connections({ from: '#img1', to: '#img4' });
+      var rect = $('#imgContainer')[0].getBoundingClientRect();
+      var width = parseInt(rect.width,10);
+      var fractWidth = width / 7;
+      var fractWidthStr = fractWidth + "px";
+      var rowStr = Array(6).fill(fractWidthStr).join(' ');
+      
+      document.getElementById('gallery').style.gridTemplateRows = rowStr;
+      
+      $().connections({ from: '#img1', to: '#img4' });
       $().connections({ from: '#img3', to: '#img4' });
       $().connections({ from: '#img3', to: '#img1' });
       $().connections({ from: '#img1', to: '#img2' });
@@ -58,71 +63,74 @@ Here are some themes and techniques that we currently work on:
   </script>
   
   <script type="text/JavaScript">
-    $(document).ready(function() {
-    	var globalResizeTimer = null;
+  	var globalResizeTimer = null;
 
-      $(window).resize(function() {
-          if(globalResizeTimer != null) window.clearTimeout(globalResizeTimer);
-          globalResizeTimer = window.setTimeout(function() {
-			  var containerWidth = $(document).getElementById('imgContainer').style.width;
-			  $(document).getElementById('imgContainer').style.height = containerWidth/2;
-			  
-              $('#img1').connections('remove');
-              $('#img2').connections('remove');
-              $('#img3').connections('remove');
-              $('#img4').connections('remove');
-              $('#img5').connections('remove');
-              $('#img6').connections('remove');
-              $().connections({ from: '#img1', to: '#img4' });
-              $().connections({ from: '#img3', to: '#img4' });
-              $().connections({ from: '#img3', to: '#img1' });
-              $().connections({ from: '#img1', to: '#img2' });
-              $().connections({ from: '#img5', to: '#img2' });
-              $().connections({ from: '#img6', to: '#img5' });
-              $().connections({ from: '#img6', to: '#img2' });
-              $().connections({ from: '#img6', to: '#img3' });
-          }, 200);
-      });
+    $(window).resize(function() {
+      var rect = $('#imgContainer')[0].getBoundingClientRect();
+      var width = parseInt(rect.width,10);
+      var fractWidth = width / 7;
+      var fractWidthStr = fractWidth + "px";
+      var rowStr = Array(6).fill(fractWidthStr).join(' ');
+      
+    	if(globalResizeTimer != null) window.clearTimeout(globalResizeTimer);
+      	globalResizeTimer = window.setTimeout(function() {    
+        	document.getElementById('gallery').style.gridTemplateRows = rowStr;          
+          
+          $('#img1').connections('remove');
+          $('#img2').connections('remove');
+          $('#img3').connections('remove');
+          $('#img4').connections('remove');
+          $('#img5').connections('remove');
+          $('#img6').connections('remove');
+          $().connections({ from: '#img1', to: '#img4' });
+          $().connections({ from: '#img3', to: '#img4' });
+          $().connections({ from: '#img3', to: '#img1' });
+          $().connections({ from: '#img1', to: '#img2' });
+          $().connections({ from: '#img5', to: '#img2' });
+          $().connections({ from: '#img6', to: '#img5' });
+          $().connections({ from: '#img6', to: '#img2' });
+          $().connections({ from: '#img6', to: '#img3' });
+        }, 200);
     });
   </script>
 </head>
 
 <body>
-  <div id="imgContainer" class="container" style="width: 95%; margin: 1em auto;" markdown="0">
-    <div class="gallery" markdown="0">
-      <figure class="gallery__item gallery__item--1" id="img1">
+  <div id="imgContainer" class="container" style="width: 95%; padding: 1em;" markdown="0">
+    <div id="gallery" class="gallery" markdown="0">
+      <figure class="gallery__item gallery__item--1">
   	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/projects/COVID_19.svg"
-			 alt="Gallery image 1" class="gallery__img">
+        <img src="https://raw.githubusercontent.com/STBrinkmann/STBrinkmann.github.io/gh-pages/images/projects/COVID_19.svg"
+			 alt="Gallery image 1" class="gallery__img" id="img1">
 	    </a>
       </figure>
-      <figure class="gallery__item gallery__item--2" id="img2">
+      <figure class="gallery__item gallery__item--2">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19narratives.html">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/projects/COVID_19_Narratives.svg"
-			 alt="Gallery image 2" class="gallery__img">
+        <img src="https://raw.githubusercontent.com/STBrinkmann/STBrinkmann.github.io/gh-pages/images/projects/COVID_19_Narratives.svg"
+			 alt="Gallery image 2" class="gallery__img" id="img2">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--3">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/gem.html">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/projects/GEM.svg"
+        <img src="https://raw.githubusercontent.com/STBrinkmann/STBrinkmann.github.io/gh-pages/images/projects/GEM.svg"
              alt="Gallery image 3" class="gallery__img" id="img3">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--4">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/purespace.html">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/projects/PURE_SPACE.svg"
+        <img src="https://raw.githubusercontent.com/STBrinkmann/STBrinkmann.github.io/gh-pages/images/projects/PURE_SPACE.svg"
              alt="Gallery image 4" class="gallery__img" id="img4">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--5">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/stage.html">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/projects/STAGE.svg"
+        <img src="https://raw.githubusercontent.com/STBrinkmann/STBrinkmann.github.io/gh-pages/images/projects/STAGE.svg"
              alt="Gallery image 5" class="gallery__img" id="img5">
 	    </a>
       </figure>
       <figure class="gallery__item gallery__item--6">
 	    <a href="{{ site.url }}{{ site.baseurl }}/research/vibrance.html">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/projects/VIBRANCE.svg"
+        <img src="https://raw.githubusercontent.com/STBrinkmann/STBrinkmann.github.io/gh-pages/images/projects/VIBRANCE.svg"
              alt="Gallery image 6" class="gallery__img" id="img6">
 	    </a>
       </figure>
