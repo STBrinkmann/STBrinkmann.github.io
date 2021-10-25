@@ -96,7 +96,7 @@ Here are some themes and techniques that we currently work on:
 </head>
 
 <body>
-  <div id="imgContainer" class="container" style="width: 95%; padding: 1em;" markdown="0">
+  <div id="imgContainer" class="container" style="width: 100%; padding: 1em;" markdown="0">
     <div id="gallery" class="gallery" markdown="0">
       <figure class="gallery__item gallery__item--1">
   	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
