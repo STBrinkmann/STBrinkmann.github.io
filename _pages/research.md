@@ -43,6 +43,7 @@ Here are some themes and techniques that we currently work on:
   
   <script type="text/JavaScript">
     $(document).ready(function() {
+	  
 	  $().connections({ from: '#img1', to: '#img4' });
       $().connections({ from: '#img3', to: '#img4' });
       $().connections({ from: '#img3', to: '#img1' });
@@ -51,6 +52,9 @@ Here are some themes and techniques that we currently work on:
       $().connections({ from: '#img6', to: '#img5' });
       $().connections({ from: '#img6', to: '#img2' });
       $().connections({ from: '#img6', to: '#img3' });
+	  
+	  var bodyWidth = document.body.clientWidth;
+	  document.getElementById('imgContainer').style.height = bodyWidth;
     });
   </script>
   
@@ -75,6 +79,10 @@ Here are some themes and techniques that we currently work on:
               $().connections({ from: '#img6', to: '#img5' });
               $().connections({ from: '#img6', to: '#img2' });
               $().connections({ from: '#img6', to: '#img3' });
+			  
+			  
+			  var bodyWidth = document.body.clientWidth;
+			  document.getElementById('imgContainer').style.height = bodyWidth;
           }, 200);
       });
     });
@@ -82,7 +90,7 @@ Here are some themes and techniques that we currently work on:
 </head>
 
 <body>
-  <div class="container" style="width: 95%; margin: 1em auto;" markdown="0">
+  <div id="imgContainer" class="container" style="width: 100%; margin: 1em auto;" markdown="0">
     <div class="gallery" markdown="0">
       <figure class="gallery__item gallery__item--1" id="img1">
   	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
