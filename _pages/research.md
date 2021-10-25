@@ -43,6 +43,8 @@ Here are some themes and techniques that we currently work on:
   
   <script type="text/JavaScript">
     $(document).ready(function() {
+	  var containerWidth = document.getElementById('imgContainer').style.width;
+	  document.getElementById('imgContainer').style.height = containerWidth;
 	  
 	  $().connections({ from: '#img1', to: '#img4' });
       $().connections({ from: '#img3', to: '#img4' });
@@ -52,9 +54,6 @@ Here are some themes and techniques that we currently work on:
       $().connections({ from: '#img6', to: '#img5' });
       $().connections({ from: '#img6', to: '#img2' });
       $().connections({ from: '#img6', to: '#img3' });
-	  
-	  var bodyWidth = document.body.clientWidth;
-	  document.getElementById('imgContainer').style.height = bodyWidth;
     });
   </script>
   
@@ -65,6 +64,9 @@ Here are some themes and techniques that we currently work on:
       $(window).resize(function() {
           if(globalResizeTimer != null) window.clearTimeout(globalResizeTimer);
           globalResizeTimer = window.setTimeout(function() {
+			  var containerWidth = document.getElementById('imgContainer').style.width;
+			  document.getElementById('imgContainer').style.height = containerWidth;
+			  
               $('#img1').connections('remove');
               $('#img2').connections('remove');
               $('#img3').connections('remove');
@@ -79,10 +81,6 @@ Here are some themes and techniques that we currently work on:
               $().connections({ from: '#img6', to: '#img5' });
               $().connections({ from: '#img6', to: '#img2' });
               $().connections({ from: '#img6', to: '#img3' });
-			  
-			  
-			  var bodyWidth = document.body.clientWidth;
-			  document.getElementById('imgContainer').style.height = bodyWidth;
           }, 200);
       });
     });
@@ -90,7 +88,7 @@ Here are some themes and techniques that we currently work on:
 </head>
 
 <body>
-  <div id="imgContainer" class="container" style="width: 100%; margin: 1em auto;" markdown="0">
+  <div id="imgContainer" class="container" style="width: 95%; margin: 1em auto;" markdown="0">
     <div class="gallery" markdown="0">
       <figure class="gallery__item gallery__item--1" id="img1">
   	    <a href="{{ site.url }}{{ site.baseurl }}/research/covid19.html">
