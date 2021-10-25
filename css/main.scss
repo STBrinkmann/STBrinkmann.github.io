@@ -159,15 +159,21 @@ firstp {
 
 
 /* Research */
+.imgContainer {
+  width: 100%;
+  margin-right: 2em;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(7, minmax(50px, 1fr));
-  grid-template-rows: repeat(5, 20vw);
 }
 
 .gallery__img {
-  width: 140%;
-  height: 140%;
+  width: 120%;
+  height: 120%;
   display: block;
   object-fit: contain;
   object-position: center;
