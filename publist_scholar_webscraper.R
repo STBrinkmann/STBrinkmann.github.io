@@ -191,6 +191,7 @@ for (i in 1:nrow(publist)) {
                           "    ", "url: ", URL, "\n",
                           "    ", "display: ", display,  "\n",
                           "  ", "highlight: ", "0", "\n",
+                          "  ", "position: ", "\n",
                           "  ", "news2:", "\n", "\n"
                         ))
 }
