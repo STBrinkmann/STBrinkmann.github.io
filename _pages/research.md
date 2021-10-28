@@ -66,15 +66,15 @@ Here are some themes and techniques that we currently work on:
   	var globalResizeTimer = null;
 
     $(window).resize(function() {
-      var rect = $('#imgContainer')[0].getBoundingClientRect();
-      var width = parseInt(rect.width,10);
-      var fractWidth = width / 7;
-      var fractWidthStr = fractWidth + "px";
-      var rowStr = Array(6).fill(fractWidthStr).join(' ');
       
     	if(globalResizeTimer != null) window.clearTimeout(globalResizeTimer);
-      	globalResizeTimer = window.setTimeout(function() {    
-        	document.getElementById('gallery').style.gridTemplateRows = rowStr;          
+      	globalResizeTimer = window.setTimeout(function() {		  
+		  var rect = $('#imgContainer')[0].getBoundingClientRect();
+		  var width = parseInt(rect.width,10);
+		  var fractWidth = width / 7;
+		  var fractWidthStr = fractWidth + "px";
+		  var rowStr = Array(6).fill(fractWidthStr).join(' ');
+          document.getElementById('gallery').style.gridTemplateRows = rowStr;          
           
           $('#img1').connections('remove');
           $('#img2').connections('remove');
