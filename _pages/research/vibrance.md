@@ -11,7 +11,6 @@ permalink: /research/vibrance.html
 ***Violência no Brasil: análise de comunidades e espaço / Violence in Brazil: Analysis of Community Environments***<br>
 </span>
 
-</span>
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="6000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
