@@ -24,6 +24,8 @@ permalink: /team/
 <div class="col-sm-6 clearfix" style="text-align: left;">
   {% if member.photo != "" %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% else %}
+  <div class="placeholder" style="float: left"></div>
   {% endif %}  
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
