@@ -38,7 +38,7 @@
   education4:
     
 - name: Naomi Pappenberger
-  photo: "bio-photo.jpg"
+  photo: ""
   info: Master student, since Sep 2021
   email: naomi.pappenberger@fau.de
   number_educ: 1
@@ -58,7 +58,7 @@
   education4:
 
 - name: Martin Fuchs
-  photo: "bio-photo.jpg"
+  photo: ""
   info: B.A. student, since Mar 2020
   email: martin.u.fuchs@fau.de
   number_educ: 0
